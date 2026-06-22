@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "id": "n3F1l6NhYzjIKg-tGoFzE51quvkS_WC9",
+        "plugin": "blobob",
+        "language": "zh-cn",
+        "version": "0.1.0",
+        "supported_versions": "0.1.0",
+        "title": "blobob",
+        "description": "blobob Localization & Tweaks",
+        "hash": "0637732a0637732a0637732a0637732a",
+        "created_at": "2026-06-22T16:59:10.572Z",
+        "updated_at": "2026-06-22T16:59:10.572Z",
+        "type": "theme"
+    }
+]
