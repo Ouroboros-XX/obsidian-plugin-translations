@@ -76,5 +76,18 @@
         "created_at": "2026-06-22T17:09:53.641Z",
         "updated_at": "2026-06-22T17:09:53.641Z",
         "type": "plugin"
+    },
+    {
+        "id": "9WexzfadmqhjNMWjcGTuJwgSAQbcfw6Z",
+        "plugin": "chronology",
+        "language": "zh-cn",
+        "version": "1.1.14",
+        "supported_versions": "1.1.14",
+        "title": "Chronology",
+        "description": "Chronology Localization & Tweaks",
+        "hash": "2efc43582efc43582efc43582efc4358",
+        "created_at": "2026-06-22T17:10:26.881Z",
+        "updated_at": "2026-06-22T17:10:26.881Z",
+        "type": "plugin"
     }
 ]
