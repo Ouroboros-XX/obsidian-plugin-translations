@@ -1,0 +1,272 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "periodic-notes",
+        "version": "1.0.0",
+        "title": "Periodic Notes",
+        "description": "Periodic Notes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.0.17",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "You have successfully migrated your daily notes settings. You can\n            now disable the Daily Notes core plugin to avoid any confusion.<br/>If you have an custom hotkeys for daily notes, make sure to update\n            them to use the new &quot;Periodic Notes&quot; commands.",
+                    "target": "您已成功迁移每日笔记设置。您可以现在禁用 Daily Notes 核心插件以避免任何混淆。<br/>如果您为每日笔记设置了自定义快捷键，请确保更新为使用新的 \"Periodic Notes\" 命令。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerHTML",
+                    "source": "<h4>Weekly Note settings migrated</h4> \n        <p class=\"setting-item-description\">Your existing weekly-note settings from the Calendar plugin have been\n          migrated over automatically. The functionality will be removed from\n          the Calendar plugin in the future.</p>",
+                    "target": "<h4>每周笔记设置已迁移</h4> \n        <p class=\"setting-item-description\">您在 Calendar 插件中的现有每周笔记设置已自动迁移。此功能未来将从 Calendar 插件中移除。</p>"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Daily Notes plugin is enabled",
+                    "target": "Daily Notes 插件已启用"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "You are currently using the core Daily Notes plugin. You can migrate\n            those settings over to Periodic Notes to enjoy the same\n            functionality as well as some notable improvements",
+                    "target": "您当前正在使用核心 Daily Notes 插件。您可以将这些设置迁移到 Periodic Notes，以获得相同的功能以及一些显著的改进"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Migrate",
+                    "target": "迁移"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "With this plugin, you can quickly create and navigate to daily, weekly,\n      and monthly notes. Enable them below to get started.",
+                    "target": "使用此插件，您可以快速创建并导航到每日、每周和每月笔记。请在下方启用它们以开始使用。"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Getting Started",
+                    "target": "快速入门"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Dismiss",
+                    "target": "忽略"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Format",
+                    "target": "格式"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Syntax Reference",
+                    "target": "语法参考"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Choose the file to use as a template",
+                    "target": "选择要用作模板的文件"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Note Folder",
+                    "target": "笔记文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "suggestion",
+                    "target": "建议"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom daily note settings found!",
+                    "target": "未找到自定义的每日笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom weekly note settings found!",
+                    "target": "未找到自定义的每周笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom monthly note settings found!",
+                    "target": "未找到自定义的每月笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom quarterly note settings found!",
+                    "target": "未找到自定义的每季笔记设置！"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "No custom yearly note settings found!",
+                    "target": "未找到自定义的每年笔记设置！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to read the daily note template",
+                    "target": "读取每日笔记模板失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Unable to create new file.",
+                    "target": "无法创建新文件。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arrow",
+                    "target": "arrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "flip",
+                    "target": "flip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hide",
+                    "target": "hide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "offset",
+                    "target": "offset"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "Notice(\"Failed to read the daily note template\")",
+                    "target": "Notice(\"读取每日笔记模板失败\")"
+                },
+                {
+                    "source": "Notice(\"Unable to create new file.\")",
+                    "target": "Notice(\"无法创建新文件。\")"
+                },
+                {
+                    "source": "error(`failed to find your ${periodicity} notes folder`, err);\n        new obsidian.Notice(`Failed to find your ${periodicity} notes folder`)",
+                    "target": "error(`未找到您的 ${periodicity} 笔记文件夹`, err);\n        new obsidian.Notice(`未找到您的 ${periodicity} 笔记文件夹`)"
+                },
+                {
+                    "source": "setTitle(`Open ${config.relativeUnit}`)",
+                    "target": "setTitle(`打开 ${config.relativeUnit}`)"
+                },
+                {
+                    "source": "name: `Open ${periodicity} note`",
+                    "target": "name: `打开 ${periodicity} 笔记`"
+                },
+                {
+                    "source": "name: `Open next ${periodicity} note`",
+                    "target": "name: `打开下一个 ${periodicity} 笔记`"
+                },
+                {
+                    "source": "name: `Open previous ${periodicity} note`",
+                    "target": "name: `打开上一个 ${periodicity} 笔记`"
+                },
+                {
+                    "source": "textContent = \"button.svelte-1alo0m9{display:flex;align-items:center}\"",
+                    "target": "textContent = \"button.svelte-1alo0m9{display:flex;align-items:center}\""
+                },
+                {
+                    "source": "textContent = \"Daily Notes plugin is enabled\"",
+                    "target": "textContent = \"已启用每日笔记插件\""
+                },
+                {
+                    "source": "textContent = \"Migrate\"",
+                    "target": "textContent = \"迁移\""
+                },
+                {
+                    "source": "textContent = \"Getting Started\"",
+                    "target": "textContent = \"开始使用\""
+                },
+                {
+                    "source": "textContent = \"Dismiss\"",
+                    "target": "textContent = \"关闭\""
+                },
+                {
+                    "source": "textContent = \"Format\"",
+                    "target": "textContent = \"格式化\""
+                },
+                {
+                    "source": "textContent = \"Syntax Reference\"",
+                    "target": "textContent = \"语法参考\""
+                },
+                {
+                    "source": "name: 'applyStyles'",
+                    "target": "name: 'applyStyles'"
+                },
+                {
+                    "source": "name: 'arrow'",
+                    "target": "name: 'arrow'"
+                },
+                {
+                    "source": "name: 'computeStyles'",
+                    "target": "name: 'computeStyles'"
+                },
+                {
+                    "source": "name: 'eventListeners'",
+                    "target": "name: 'eventListeners'"
+                },
+                {
+                    "source": "name: 'flip'",
+                    "target": "name: 'flip'"
+                },
+                {
+                    "source": "text: 'reference'",
+                    "target": "text: '参考'"
+                },
+                {
+                    "source": "name: 'hide'",
+                    "target": "name: 'hide'"
+                },
+                {
+                    "source": "name: 'offset'",
+                    "target": "name: 'offset'"
+                },
+                {
+                    "source": "name: 'popperOffsets'",
+                    "target": "name: 'popperOffsets'"
+                },
+                {
+                    "source": "name: 'preventOverflow'",
+                    "target": "name: 'preventOverflow'"
+                },
+                {
+                    "source": "name: \"sameWidth\"",
+                    "target": "name: \"sameWidth\""
+                },
+                {
+                    "source": "textContent = \"Choose the file to use as a template\"",
+                    "target": "textContent = \"选择要用作模板的文件\""
+                },
+                {
+                    "source": "textContent = \"Note Folder\"",
+                    "target": "textContent = \"笔记文件夹\""
+                }
+            ]
+        }
+    }
+}
