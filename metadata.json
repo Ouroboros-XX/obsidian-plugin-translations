@@ -115,5 +115,18 @@
         "created_at": "2026-06-22T17:10:55.842Z",
         "updated_at": "2026-06-22T17:10:55.842Z",
         "type": "plugin"
+    },
+    {
+        "id": "he8nz2EJN3-oLujifJqEOjsZcNGzTtOD",
+        "plugin": "obsidian-image-auto-upload-plugin",
+        "language": "zh-cn",
+        "version": "4.1.0",
+        "supported_versions": "4.1.0",
+        "title": "Image auto upload",
+        "description": "Image auto upload Localization & Tweaks",
+        "hash": "2b390a262b390a262b390a262b390a26",
+        "created_at": "2026-06-22T17:11:20.194Z",
+        "updated_at": "2026-06-22T17:11:20.194Z",
+        "type": "plugin"
     }
 ]
