@@ -63,5 +63,18 @@
         "created_at": "2026-06-22T17:09:37.970Z",
         "updated_at": "2026-06-22T17:09:37.970Z",
         "type": "plugin"
+    },
+    {
+        "id": "5bAJlgZBPnylTSgNiYpG7RUdWvzaIbgm",
+        "plugin": "calendar",
+        "language": "zh-cn",
+        "version": "1.5.10",
+        "supported_versions": "1.5.10",
+        "title": "日历",
+        "description": "Calendar Localization & Tweaks",
+        "hash": "7cb2befd7cb2befd7cb2befd7cb2befd",
+        "created_at": "2026-06-22T17:09:53.641Z",
+        "updated_at": "2026-06-22T17:09:53.641Z",
+        "type": "plugin"
     }
 ]
