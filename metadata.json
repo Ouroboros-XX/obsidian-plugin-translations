@@ -284,5 +284,18 @@
         "created_at": "2026-06-22T17:20:52.440Z",
         "updated_at": "2026-06-22T17:20:52.440Z",
         "type": "plugin"
+    },
+    {
+        "id": "NjI9WZqT-7tFcXMWfR2Aqa8sWNBnPb8F",
+        "plugin": "table-editor-obsidian",
+        "language": "zh-cn",
+        "version": "0.23.2",
+        "supported_versions": "0.23.2",
+        "title": "Advanced Tables",
+        "description": "Advanced Tables Localization & Tweaks",
+        "hash": "2cafe2882cafe2882cafe2882cafe288",
+        "created_at": "2026-06-22T17:21:10.203Z",
+        "updated_at": "2026-06-22T17:21:10.203Z",
+        "type": "plugin"
     }
 ]
