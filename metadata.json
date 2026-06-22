@@ -271,5 +271,18 @@
         "created_at": "2026-06-22T17:20:38.530Z",
         "updated_at": "2026-06-22T17:20:38.530Z",
         "type": "plugin"
+    },
+    {
+        "id": "xhA47qn3aadTwxj60PCKJY38vVbFGQBe",
+        "plugin": "obsidian-hover-editor",
+        "language": "zh-cn",
+        "version": "0.11.29",
+        "supported_versions": "0.11.29",
+        "title": "Hover Editor",
+        "description": "Hover Editor Localization & Tweaks",
+        "hash": "4a19ccbc4a19ccbc4a19ccbc4a19ccbc",
+        "created_at": "2026-06-22T17:20:52.440Z",
+        "updated_at": "2026-06-22T17:20:52.440Z",
+        "type": "plugin"
     }
 ]
