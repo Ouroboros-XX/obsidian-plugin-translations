@@ -50,5 +50,18 @@
         "created_at": "2026-06-22T17:09:15.220Z",
         "updated_at": "2026-06-22T17:09:15.220Z",
         "type": "plugin"
+    },
+    {
+        "id": "mHsWfu4dLDF-0QyU_82_Ay1MSdHdzowX",
+        "plugin": "breadcrumbs",
+        "language": "zh-cn",
+        "version": "4.11.0",
+        "supported_versions": "4.11.0",
+        "title": "Breadcrumbs",
+        "description": "Breadcrumbs Localization & Tweaks",
+        "hash": "2fb6fc602fb6fc602fb6fc602fb6fc60",
+        "created_at": "2026-06-22T17:09:37.970Z",
+        "updated_at": "2026-06-22T17:09:37.970Z",
+        "type": "plugin"
     }
 ]
