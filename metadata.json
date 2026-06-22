@@ -245,5 +245,18 @@
         "created_at": "2026-06-22T17:16:16.219Z",
         "updated_at": "2026-06-22T17:16:16.219Z",
         "type": "plugin"
+    },
+    {
+        "id": "z2_cPNgmH-WZSpfc1cIVGVjqrtuLDw1q",
+        "plugin": "pretty-properties",
+        "language": "zh-cn",
+        "version": "1.10.18",
+        "supported_versions": "1.10.18",
+        "title": "Pretty Properties",
+        "description": "Pretty Properties Localization & Tweaks",
+        "hash": "606e066b606e066b606e066b606e066b",
+        "created_at": "2026-06-22T17:16:56.944Z",
+        "updated_at": "2026-06-22T17:16:56.944Z",
+        "type": "plugin"
     }
 ]
