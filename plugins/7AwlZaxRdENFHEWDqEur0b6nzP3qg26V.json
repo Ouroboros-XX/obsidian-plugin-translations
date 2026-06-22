@@ -1,0 +1,724 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "obsidian-advanced-uri",
+        "version": "1.0.0",
+        "title": "Advanced URI",
+        "description": "Advanced URI Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.46.1",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "outerHTML",
+                    "source": "<a href='https://ko-fi.com/F1F195IQ5' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>",
+                    "target": "<a href='https://ko-fi.com/F1F195IQ5' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi3.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "id",
+                    "target": "id"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ID",
+                    "target": "ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Name",
+                    "target": "Name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "error reading FileCache (empty file?)",
+                    "target": "读取文件缓存时出错（文件为空？）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add format",
+                    "target": "添加格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose whether to use the vault Name or its internal ID as the identifying parameter.",
+                    "target": "选择是使用库的名称还是其内部 ID 作为标识参数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When using UID instead of file paths, you can still add the filepath parameter to know what this URI is about. It's NOT actually used.",
+                    "target": "使用 UID 而非文件路径时，仍可添加文件路径参数以了解此 URI 的含义。此参数实际并未被使用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "⚠️ This can be dangerous as it allows executing arbitrary code. Only enable this if you trust the source of the URIs you are using and know what you are doing. ⚠️",
+                    "target": "⚠️ 这可能很危险，因为它允许执行任意代码。仅在信任所使用的 URI 来源并明确了解操作时才启用此选项。 ⚠️"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Define custom link formats to use when using 'Copy formatted URI for ...' commands. Specify a name to identify and the format template. Available variables:",
+                    "target": "定义自定义链接格式，以在使用 “复制格式化 URI 为 …” 命令时使用。指定用于标识的名称和格式模板。可用变量："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If you like this Plugin, consider donating to support continued development.",
+                    "target": "如果您喜欢此插件，请考虑捐赠以支持持续开发。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open file on write",
+                    "target": "写入时打开文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open file on write in a new pane",
+                    "target": "在新窗格中写入时打开文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open daily note in a new pane",
+                    "target": "在新窗格中打开每日笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open file without write in new pane",
+                    "target": "在新窗格中打开文件（不写入）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use UID instead of file paths",
+                    "target": "使用 UID 而非文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include vault name/ID parameter",
+                    "target": "包含库名称/ID 参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Vault identifying parameter",
+                    "target": "库标识参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add filepath parameter",
+                    "target": "添加文件路径参数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "UID field in frontmatter",
+                    "target": "前置数据中的 UID 字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Allow executing arbitrary code via eval",
+                    "target": "允许通过 eval 执行任意代码"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Link formats",
+                    "target": "链接格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Add link format",
+                    "target": "添加链接格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Support",
+                    "target": "支持"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Donate",
+                    "target": "捐赠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type your data to be written to the file or leave it empty to just open it",
+                    "target": "输入要写入文件的数据，或留空仅打开文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Replacement text",
+                    "target": "替换文本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Searched text. RegEx is supported",
+                    "target": "搜索文本。支持正则表达式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Name",
+                    "target": "名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Choose a workspace",
+                    "target": "选择工作区"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{uri}} - The Advanced URI",
+                    "target": "{{uri}} - 高级 URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{path}} - The file path",
+                    "target": "{{path}} - 文件路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{name}} - The file name",
+                    "target": "{{name}} - 文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{folder}} - The path of the file folder",
+                    "target": "{{folder}} - 文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{vaultName}} - The vault name",
+                    "target": "{{vaultName}} - 金库名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{vaultId}} - The vault id",
+                    "target": "{{vaultId}} - 金库 ID"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{uid}} - The file's UID, defaults to file name if not available",
+                    "target": "{{uid}} - 文件的 UID，若不可用则默认为文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "{{alias}} - The file's first alias, defaults to file name if not available",
+                    "target": "{{alias}} - 文件的首个别名，若不可用则默认为文件名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy Advanced URI",
+                    "target": "复制高级 URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy formatted Advanced URI",
+                    "target": "复制已格式化的高级 URI"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "feather.toSvg() is deprecated. Please use feather.icons[name].toSvg() instead.",
+                    "target": "feather.toSvg() 已弃用。请改用 feather.icons[name].toSvg()。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Can't find heading",
+                    "target": "未找到标题"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to parse data, check console for more details",
+                    "target": "解析数据失败，请检查控制台获取更多详情"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to update frontmatter, check console for more details",
+                    "target": "更新 frontmatter 失败，请检查控制台获取更多详情"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Workspaces plugin is not enabled",
+                    "target": "工作区插件未启用"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Eval is not allowed. Please enable it in the settings.",
+                    "target": "不允许使用 Eval。请在设置中启用它。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot find file",
+                    "target": "未找到文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File already exists",
+                    "target": "文件已存在"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No file opened",
+                    "target": "未打开文件"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Checking for updates…",
+                    "target": "正在检查更新…"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Active view is not a canvas",
+                    "target": "当前视图不是画布"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No link formats defined in the settings",
+                    "target": "设置中未定义链接格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No link format selected",
+                    "target": "未选择链接格式"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Advanced URI copied to your clipboard",
+                    "target": "高级 URI 已复制到剪贴板"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Daily notes plugin is not loaded",
+                    "target": "每日笔记插件未加载"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Cannot find Hover Editor plugin. Please file an issue.",
+                    "target": "未找到悬停编辑器插件。请提交问题。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "info",
+                    "source": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>",
+                    "target": "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><line x1=\"12\" y1=\"16\" x2=\"12\" y2=\"12\"></line><line x1=\"12\" y1=\"8\" x2=\"12.01\" y2=\"8\"></line>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "link",
+                    "source": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>",
+                    "target": "<path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path>"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for file with options",
+                    "target": "复制带选项的文件 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for current file",
+                    "target": "复制当前文件的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy formatted URI for file with options ",
+                    "target": "复制带选项的已格式化文件 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy formatted URI for current file",
+                    "target": "复制当前文件的已格式化 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for daily note",
+                    "target": "复制每日笔记的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for search and replace",
+                    "target": "复制搜索和替换的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for command",
+                    "target": "复制命令的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for current block",
+                    "target": "复制当前块的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy formatted URI for current block",
+                    "target": "复制当前块的已格式化 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for workspace",
+                    "target": "复制工作区的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for selected canvas nodes",
+                    "target": "复制所选画布节点的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy URI for current canvas viewport",
+                    "target": "复制当前画布视口的 URI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Select link format",
+                    "target": "选择链接格式"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "search",
+                    "source": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>",
+                    "target": "<circle cx=\"11\" cy=\"11\" r=\"8\"></circle><line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log(\"error reading FileCache (empty file?)\")",
+                    "target": "log(\"读取 FileCache 时出错（文件为空？）\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Type your data to be written to the file or leave it empty to just open it\")",
+                    "target": "setPlaceholder(\"键入要写入文件的数据，或留空以仅打开文件\")"
+                },
+                {
+                    "source": "Notice(\"Can't find heading\")",
+                    "target": "Notice(\"找不到标题\")"
+                },
+                {
+                    "source": "Notice(`Enabled ${e}`)",
+                    "target": "Notice(`已启用 ${e}`)"
+                },
+                {
+                    "source": "Notice(`Disabled ${e}`)",
+                    "target": "Notice(`已禁用 ${e}`)"
+                },
+                {
+                    "source": "Notice(\"Failed to parse data, check console for more details\")",
+                    "target": "Notice(\"解析数据失败，请检查控制台获取更多细节\")"
+                },
+                {
+                    "source": "Notice(`Invalid key in path.\n${r.message}`)",
+                    "target": "Notice(`路径中的键无效。\\n${r.message}`)"
+                },
+                {
+                    "source": "Notice(\"Failed to update frontmatter, check console for more details\")",
+                    "target": "Notice(\"更新 frontmatter 失败，请检查控制台获取更多细节\")"
+                },
+                {
+                    "source": "Notice(\"Workspaces plugin is not enabled\")",
+                    "target": "Notice(\"Workspaces 插件未启用\")"
+                },
+                {
+                    "source": "Notice(`Saved current workspace to ${t}`)",
+                    "target": "Notice(`已将当前工作区保存至 ${t}`)"
+                },
+                {
+                    "source": "Notice(\"Eval is not allowed. Please enable it in the settings.\")",
+                    "target": "Notice(\"Eval 不被允许。请在设置中启用它。\")"
+                },
+                {
+                    "source": "Notice(`Can't parse ${n.searchregex} as RegEx`)",
+                    "target": "Notice(`无法解析 ${n.searchregex} 为正则表达式`)"
+                },
+                {
+                    "source": "Notice(\"Cannot find file\")",
+                    "target": "Notice(\"找不到文件\")"
+                },
+                {
+                    "source": "Notice(\"File already exists\")",
+                    "target": "Notice(\"文件已存在\")"
+                },
+                {
+                    "source": "Notice(\"No file opened\")",
+                    "target": "Notice(\"未打开文件\")"
+                },
+                {
+                    "source": "Notice(\"Active view is not a canvas\")",
+                    "target": "Notice(\"活动视图不是画布\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Replacement text\")",
+                    "target": "setPlaceholder(\"替换文本\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Searched text. RegEx is supported\")",
+                    "target": "setPlaceholder(\"搜索文本。支持正则表达式\")"
+                },
+                {
+                    "source": "setName(\"Open file on write\")",
+                    "target": "setName(\"写入时打开文件\")"
+                },
+                {
+                    "source": "setName(\"Open file on write in a new pane\")",
+                    "target": "setName(\"在新窗格中写入时打开文件\")"
+                },
+                {
+                    "source": "setName(\"Open daily note in a new pane\")",
+                    "target": "setName(\"在新窗格中打开每日笔记\")"
+                },
+                {
+                    "source": "setName(\"Open file without write in new pane\")",
+                    "target": "setName(\"在新窗格中以只读方式打开文件\")"
+                },
+                {
+                    "source": "setName(\"Use UID instead of file paths\")",
+                    "target": "setName(\"使用 UID 而非文件路径\")"
+                },
+                {
+                    "source": "setName(\"Include vault name/ID parameter\")",
+                    "target": "setName(\"包含保险库名称/ID 参数\")"
+                },
+                {
+                    "source": "setName(\"Vault identifying parameter\")",
+                    "target": "setName(\"保险库标识参数\")"
+                },
+                {
+                    "source": "setDesc(\"Choose whether to use the vault Name or its internal ID as the identifying parameter.\")",
+                    "target": "setDesc(\"选择是使用保险库名称还是其内部 ID 作为标识参数。\")"
+                },
+                {
+                    "source": "setName(\"Add filepath parameter\")",
+                    "target": "setName(\"添加文件路径参数\")"
+                },
+                {
+                    "source": "setDesc(\"When using UID instead of file paths, you can still add the filepath parameter to know what this URI is about. It's NOT actually used.\")",
+                    "target": "setDesc(\"使用 UID 而非文件路径时，仍可添加文件路径参数以了解此 URI 的含义。它实际上并未被使用。\")"
+                },
+                {
+                    "source": "setName(\"UID field in frontmatter\")",
+                    "target": "setName(\"前置元数据中的 UID 字段\")"
+                },
+                {
+                    "source": "setName(\"Allow executing arbitrary code via eval\")",
+                    "target": "setName(\"允许通过 eval 执行任意代码\")"
+                },
+                {
+                    "source": "setName(\"Link formats\")",
+                    "target": "setName(\"链接格式\")"
+                },
+                {
+                    "source": "setDesc(\"Define custom link formats to use when using 'Copy formatted URI for ...' commands. Specify a name to identify and the format template. Available variables:\")",
+                    "target": "setDesc(\"定义自定义链接格式，以在使用 'Copy formatted URI for ...' 命令时使用。指定用于标识的名称和格式模板。可用变量:\")"
+                },
+                {
+                    "source": "setText(\"{{uri}} - The Advanced URI\")",
+                    "target": "setText(\"{{uri}} - 高级 URI\")"
+                },
+                {
+                    "source": "setText(\"{{path}} - The file path\")",
+                    "target": "setText(\"{{path}} - 文件路径\")"
+                },
+                {
+                    "source": "setText(\"{{name}} - The file name\")",
+                    "target": "setText(\"{{name}} - 文件名\")"
+                },
+                {
+                    "source": "setText(\"{{folder}} - The path of the file folder\")",
+                    "target": "setText(\"{{folder}} - 文件夹路径\")"
+                },
+                {
+                    "source": "setText(\"{{vaultName}} - The vault name\")",
+                    "target": "setText(\"{{vaultName}} - 库名称\")"
+                },
+                {
+                    "source": "setText(\"{{vaultId}} - The vault id\")",
+                    "target": "setText(\"{{vaultId}} - 库 ID\")"
+                },
+                {
+                    "source": "setText(\"{{uid}} - The file's UID, defaults to file name if not available\")",
+                    "target": "setText(\"{{uid}} - 文件的 UID，若不可用则默认为文件名\")"
+                },
+                {
+                    "source": "setText(\"{{alias}} - The file's first alias, defaults to file name if not available\")",
+                    "target": "setText(\"{{alias}} - 文件的第一个别名，若不可用则默认为文件名\")"
+                },
+                {
+                    "source": "setName(\"Add link format\")",
+                    "target": "setName(\"添加链接格式\")"
+                },
+                {
+                    "source": "setButtonText(\"Add format\")",
+                    "target": "setButtonText(\"添加格式\")"
+                },
+                {
+                    "source": "setName(`#${o+1} Format`)",
+                    "target": "setName(`#${o+1} 格式`)"
+                },
+                {
+                    "source": "setDesc(\"If you like this Plugin, consider donating to support continued development.\")",
+                    "target": "setDesc(\"如果您喜欢此插件，请考虑捐赠以支持持续开发。\")"
+                },
+                {
+                    "source": "Notice(\"No link formats defined in the settings\")",
+                    "target": "Notice(\"设置中未定义链接格式\")"
+                },
+                {
+                    "source": "Notice(\"No link format selected\")",
+                    "target": "Notice(\"未选择链接格式\")"
+                },
+                {
+                    "source": "Notice(`Advanced URI in format \"${r.name}\" copied to your clipboard`)",
+                    "target": "Notice(`Advanced URI in format \"${r.name}\" copied to your clipboard`)"
+                },
+                {
+                    "source": "Notice(\"Advanced URI copied to your clipboard\")",
+                    "target": "Notice(\"Advanced URI copied to your clipboard\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Choose a workspace\")",
+                    "target": "setPlaceholder(\"选择工作区\")"
+                },
+                {
+                    "source": "setTitle(\"Copy Advanced URI\")",
+                    "target": "setTitle(\"复制高级 URI\")"
+                },
+                {
+                    "source": "setTitle(\"Copy formatted Advanced URI\")",
+                    "target": "setTitle(\"复制格式化的高级 URI\")"
+                },
+                {
+                    "source": "Notice(\"Daily notes plugin is not loaded\")",
+                    "target": "Notice(\"未加载每日笔记插件\")"
+                },
+                {
+                    "source": "Notice(\"Cannot find Hover Editor plugin. Please file an issue.\")",
+                    "target": "Notice(\"未找到悬停编辑器插件。请提交问题。\")"
+                },
+                {
+                    "source": "name:\"Copy URI for file with options\"",
+                    "target": "name:\"复制带选项的文件 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for current file\"",
+                    "target": "name:\"复制当前文件的 URI\""
+                },
+                {
+                    "source": "name:\"Copy formatted URI for file with options \"",
+                    "target": "name:\"复制格式化的带选项文件 URI \""
+                },
+                {
+                    "source": "name:\"Copy formatted URI for current file\"",
+                    "target": "name:\"复制格式化的当前文件 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for daily note\"",
+                    "target": "name:\"复制每日笔记的 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for search and replace\"",
+                    "target": "name:\"复制搜索与替换的 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for command\"",
+                    "target": "name:\"复制命令的 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for current block\"",
+                    "target": "name:\"复制当前块的 URI\""
+                },
+                {
+                    "source": "name:\"Copy formatted URI for current block\"",
+                    "target": "name:\"复制当前块的格式化 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for workspace\"",
+                    "target": "name:\"复制工作区的 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for selected canvas nodes\"",
+                    "target": "name:\"复制所选画布节点的 URI\""
+                },
+                {
+                    "source": "name:\"Copy URI for current canvas viewport\"",
+                    "target": "name:\"复制当前画布视口的 URI\""
+                }
+            ]
+        }
+    }
+}
