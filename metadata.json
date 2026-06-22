@@ -206,5 +206,18 @@
         "created_at": "2026-06-22T17:14:18.730Z",
         "updated_at": "2026-06-22T17:14:18.730Z",
         "type": "plugin"
+    },
+    {
+        "id": "mpJt4p0s3JsrI6D6eQja3O2Hdt23IqQi",
+        "plugin": "pdf-plus",
+        "language": "zh-cn",
+        "version": "0.40.31",
+        "supported_versions": "0.40.31",
+        "title": "PDF++",
+        "description": "PDF++ Localization & Tweaks",
+        "hash": "18ea159418ea159418ea159418ea1594",
+        "created_at": "2026-06-22T17:15:36.362Z",
+        "updated_at": "2026-06-22T17:15:36.362Z",
+        "type": "plugin"
     }
 ]
