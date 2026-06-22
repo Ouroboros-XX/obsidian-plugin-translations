@@ -1,0 +1,806 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "arbor",
+        "version": "1.0.0",
+        "title": "Arbor",
+        "description": "Arbor Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.2.2",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "horizontal",
+                    "target": "水平"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Horizontal split",
+                    "target": "水平分割"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "vertical",
+                    "target": "垂直"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Vertical split",
+                    "target": "垂直分割"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "none",
+                    "target": "none"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "No fallback",
+                    "target": "无备用方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "snippet",
+                    "target": "片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Clean snippet",
+                    "target": "代码片段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "First non-empty line",
+                    "target": "第一行非空行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "compact",
+                    "target": "紧凑型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Compact single-line HTML comment",
+                    "target": "紧凑型单行 HTML 注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "multiline",
+                    "target": "多行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Multiline HTML comment",
+                    "target": "多行HTML注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Arbor loading view failed to resolve",
+                    "target": "Arbor loading view failed to resolve"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Arbor] Failed to save pasted image",
+                    "target": "[Arbor] Failed to save pasted image"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose where the branch view opens relative to the current note.",
+                    "target": "选择分支视图相对于当前笔记的打开位置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enable drag-and-drop reordering across columns.",
+                    "target": "启用跨列拖放重新排序功能。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Zoom the branching scene with Ctrl/Cmd + mouse wheel.",
+                    "target": "使用 Ctrl/Cmd 键配合鼠标滚轮放大分支场景。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Open managed notes directly in the branch view when you open them normally.",
+                    "target": "在正常打开管理笔记时，直接在分支视图中打开它们。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the active block path as a breadcrumb strip.",
+                    "target": "以面包屑导航条的形式显示当前所在的块路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show subtle connectors between breadcrumb items.",
+                    "target": "在面包屑导航条目之间显示细微的连接线。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use the first non-empty line that starts with this prefix for breadcrumb labels. Leave blank to skip prefix matching.",
+                    "target": "将以该前缀开头的第一个非空行用作面包屑导航标签。留空则跳过前缀匹配。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to use when no preferred-prefix line exists.",
+                    "target": "当不存在“preferred-prefix”行时应使用什么。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show the focused selected-block panel alongside the branching editor.",
+                    "target": "在分支编辑器旁边显示当前选定代码块面板。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How hidden in-note tree metadata is stored.",
+                    "target": "隐藏的注释树元数据是如何存储的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Split direction",
+                    "target": "拆分方向"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Drag and drop",
+                    "target": "拖放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Ctrl/Cmd + wheel zoom",
+                    "target": "Ctrl/Cmd + 滚轮缩放"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-open managed notes",
+                    "target": "自动打开受管理的笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show breadcrumb path",
+                    "target": "Show breadcrumb path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show breadcrumb flow",
+                    "target": "Show breadcrumb flow"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Preferred breadcrumb line prefix",
+                    "target": "首选面包屑导航前缀"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Breadcrumb fallback",
+                    "target": "面包屑导航的备用方案"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Selected block panel",
+                    "target": "Selected block panel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Managed metadata block style",
+                    "target": "管理元数据块样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create child block",
+                    "target": "创建子区块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reset zoom to 100%",
+                    "target": "将缩放比例重置为 100%"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open settings",
+                    "target": "打开设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Continue to the right",
+                    "target": "继续向右"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create block to the left",
+                    "target": "在左侧创建一个块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create sibling above",
+                    "target": "在上方创建同级文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create sibling below",
+                    "target": "在下方创建子节点"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Select parent",
+                    "target": "Select parent"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Select previous sibling",
+                    "target": "Select previous sibling"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Select next sibling",
+                    "target": "Select next sibling"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Select first child",
+                    "target": "Select first child"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Duplicate subtree",
+                    "target": "子树的副本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Reveal in Markdown",
+                    "target": "在 Markdown 中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete block",
+                    "target": "Delete block"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete subtree",
+                    "target": "删除子树"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "New arbor note",
+                    "target": "New arbor note"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Arbor could not resolve the note. Try opening it again.",
+                    "target": "Arbor 无法打开该笔记。请尝试再次打开。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open this note in Markdown instead.",
+                    "target": "请改用 Markdown 格式打开此笔记。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The tree was rebuilt from the visible Markdown body to avoid losing plain editor changes.",
+                    "target": "该树结构是根据可见的 Markdown 正文重建的，以避免丢失纯文本编辑器中的修改。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "The note changed on disk while a block was being edited. Finish or cancel the card edit before reloading.",
+                    "target": "在编辑块的过程中，磁盘上的笔记发生了变化。请先完成或取消卡片编辑，然后再重新加载。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No stored metadata was found in this note.",
+                    "target": "未在此笔记中找到任何存储的元数据。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Obsidian settings are not available right now.",
+                    "target": "目前无法使用 Obsidian 设置。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Arbor could not save the image into the vault.",
+                    "target": "Arbor 无法将该图像保存到存储库中。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Open a Markdown note first to use this view.",
+                    "target": "请先打开一个 Markdown 笔记，才能使用此视图。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Arbor is desktop-first. Mobile support is intentionally limited.",
+                    "target": "Arbor 优先支持桌面端。移动端支持功能被有意限制。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Reset zoom to 100%",
+                    "target": "Reset zoom to 100%"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Open view menu",
+                    "target": "Open view menu"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear search",
+                    "target": "Clear search"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-edge-fade is-top",
+                    "target": "arbor-edge-fade is-top"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-edge-fade is-right",
+                    "target": "arbor-edge-fade is-right"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-edge-fade is-bottom",
+                    "target": "arbor-edge-fade is-bottom"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-edge-fade is-left",
+                    "target": "arbor-edge-fade is-left"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-card-content markdown-rendered",
+                    "target": "arbor-card-content markdown-rendered"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-preview-content markdown-rendered",
+                    "target": "arbor-preview-content markdown-rendered"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-preview-action is-primary",
+                    "target": "arbor-preview-action is-primary"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-editor arbor-preview-editor",
+                    "target": "arbor-editor arbor-preview-editor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "arbor-preview-block-body markdown-rendered",
+                    "target": "arbor-preview-block-body markdown-rendered"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Rewriting this note to Arbor's precise block format.",
+                    "target": "将此笔记按Arbor的精确段落格式重新编写。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open view for current note",
+                    "target": "打开当前笔记的预览"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new note",
+                    "target": "Create new note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create new note in Markdown editor",
+                    "target": "在 Markdown 编辑器中创建新笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create demo note",
+                    "target": "Create demo note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search blocks and path",
+                    "target": "搜索块和路径"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Opening branch view",
+                    "target": "Opening branch view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Preparing a precise block layout before the note appears.",
+                    "target": "Preparing a precise block layout before the note appears."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Could not open branch view",
+                    "target": "Could not open branch view"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open this note in Markdown instead.",
+                    "target": "Open this note in Markdown instead."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open a Markdown note to use this view.",
+                    "target": "Open a Markdown note to use this view."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This note changed in plain Markdown mode. The branch tree was rebuilt from the visible note body.",
+                    "target": "This note changed in plain Markdown mode. The branch tree was rebuilt from the visible note body."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Search blocks and path",
+                    "target": "Search blocks and path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Clear",
+                    "target": "Clear"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This note has no branch blocks yet.",
+                    "target": "This note has no branch blocks yet."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create root block",
+                    "target": "Create root block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Expand branch",
+                    "target": "Expand branch"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Selected block",
+                    "target": "Selected block"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Select",
+                    "target": "Select"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Path",
+                    "target": "Path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Upgrading note structure",
+                    "target": "关于升级笔记结构的说明"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Split direction\")",
+                    "target": "setName(\"拆分方向\")"
+                },
+                {
+                    "source": "setDesc(\"Choose where the branch view opens relative to the current note.\")",
+                    "target": "setDesc(\"选择分支视图相对于当前笔记的打开位置。\")"
+                },
+                {
+                    "source": "setName(\"Drag and drop\")",
+                    "target": "setName(\"拖放\")"
+                },
+                {
+                    "source": "setDesc(\"Enable drag-and-drop reordering across columns.\")",
+                    "target": "setDesc(\"启用跨列的拖放重新排序。\")"
+                },
+                {
+                    "source": "setName(\"Ctrl/Cmd + wheel zoom\")",
+                    "target": "setName(\"Ctrl/Cmd + 滚轮缩放\")"
+                },
+                {
+                    "source": "setDesc(\"Zoom the branching scene with Ctrl/Cmd + mouse wheel.\")",
+                    "target": "setDesc(\"使用 Ctrl/Cmd + 鼠标滚轮缩放分支场景。\")"
+                },
+                {
+                    "source": "setName(\"Auto-open managed notes\")",
+                    "target": "setName(\"自动打开受管笔记\")"
+                },
+                {
+                    "source": "setDesc(\"Open managed notes directly in the branch view when you open them normally.\")",
+                    "target": "setDesc(\"在正常打开时，直接在分支视图中打开受管笔记。\")"
+                },
+                {
+                    "source": "setName(\"Show breadcrumb path\")",
+                    "target": "setName(\"显示面包屑路径\")"
+                },
+                {
+                    "source": "setDesc(\"Show the active block path as a breadcrumb strip.\")",
+                    "target": "setDesc(\"将活动块路径显示为面包屑条。\")"
+                },
+                {
+                    "source": "setName(\"Show breadcrumb flow\")",
+                    "target": "setName(\"显示面包屑流\")"
+                },
+                {
+                    "source": "setDesc(\"Show subtle connectors between breadcrumb items.\")",
+                    "target": "setDesc(\"显示面包屑项之间的细微连接。\")"
+                },
+                {
+                    "source": "setName(\"Preferred breadcrumb line prefix\")",
+                    "target": "setName(\"首选面包屑行前缀\")"
+                },
+                {
+                    "source": "setDesc(\"Use the first non-empty line that starts with this prefix for breadcrumb labels. Leave blank to skip prefix matching.\")",
+                    "target": "setDesc(\"使用以此前缀开头的第一行非空内容作为面包屑标签。留空则跳过前缀匹配。\")"
+                },
+                {
+                    "source": "setName(\"Breadcrumb fallback\")",
+                    "target": "setName(\"面包屑回退\")"
+                },
+                {
+                    "source": "setDesc(\"What to use when no preferred-prefix line exists.\")",
+                    "target": "setDesc(\"当不存在首选前缀行时使用的内容。\")"
+                },
+                {
+                    "source": "setName(\"Selected block panel\")",
+                    "target": "setName(\"已选块面板\")"
+                },
+                {
+                    "source": "setDesc(\"Show the focused selected-block panel alongside the branching editor.\")",
+                    "target": "setDesc(\"在分支编辑器旁显示聚焦的已选块面板。\")"
+                },
+                {
+                    "source": "setName(\"Managed metadata block style\")",
+                    "target": "setName(\"受管元数据块样式\")"
+                },
+                {
+                    "source": "setDesc(\"How hidden in-note tree metadata is stored.\")",
+                    "target": "setDesc(\"隐藏的笔记内树元数据的存储方式。\")"
+                },
+                {
+                    "source": "Notice(\"Arbor could not resolve the note. Try opening it again.\")",
+                    "target": "Notice(\"Arbor 无法解析该笔记。请重新打开。\")"
+                },
+                {
+                    "source": "Notice(\"Open this note in Markdown instead.\")",
+                    "target": "Notice(\"请改为在 Markdown 中打开此笔记。\")"
+                },
+                {
+                    "source": "Notice(\"The tree was rebuilt from the visible Markdown body to avoid losing plain editor changes.\")",
+                    "target": "Notice(\"已从可见的 Markdown 内容重建树结构，以避免丢失纯文本编辑器的更改。\")"
+                },
+                {
+                    "source": "Notice(\"The note changed on disk while a block was being edited. Finish or cancel the card edit before reloading.\")",
+                    "target": "Notice(\"在编辑块时笔记已在磁盘上被修改。请在重新加载前完成或取消卡片编辑。\")"
+                },
+                {
+                    "source": "Notice(\"No stored metadata was found in this note.\")",
+                    "target": "Notice(\"未在此笔记中找到存储的元数据。\")"
+                },
+                {
+                    "source": "setTitle(\"Create child block\")",
+                    "target": "setTitle(\"创建子块\")"
+                },
+                {
+                    "source": "setTitle(\"Reset zoom to 100%\")",
+                    "target": "setTitle(\"重置缩放至 100%\")"
+                },
+                {
+                    "source": "setTitle(\"Open settings\")",
+                    "target": "setTitle(\"打开设置\")"
+                },
+                {
+                    "source": "Notice(\"Obsidian settings are not available right now.\")",
+                    "target": "Notice(\"Obsidian 设置目前不可用。\")"
+                },
+                {
+                    "source": "error(`[Arbor] Failed to persist state after ${reason}`, error);\n      new import_obsidian3.Notice(`Arbor could not save the note after \"${reason}\".`)",
+                    "target": "error(`[Arbor] Failed to persist state after ${reason}`, error);\n      new import_obsidian3.Notice(`Arbor could not save the note after \"${reason}\".`)"
+                },
+                {
+                    "source": "setTitle(\"Continue to the right\")",
+                    "target": "setTitle(\"继续向右\")"
+                },
+                {
+                    "source": "setTitle(\"Create block to the left\")",
+                    "target": "setTitle(\"在左侧创建块\")"
+                },
+                {
+                    "source": "setTitle(\"Create sibling above\")",
+                    "target": "setTitle(\"在上方创建同级块\")"
+                },
+                {
+                    "source": "setTitle(\"Create sibling below\")",
+                    "target": "setTitle(\"在下方创建同级块\")"
+                },
+                {
+                    "source": "setTitle(\"Select parent\")",
+                    "target": "setTitle(\"选择父级\")"
+                },
+                {
+                    "source": "setTitle(\"Select previous sibling\")",
+                    "target": "setTitle(\"选择上一个同级块\")"
+                },
+                {
+                    "source": "setTitle(\"Select next sibling\")",
+                    "target": "setTitle(\"选择下一个同级块\")"
+                },
+                {
+                    "source": "setTitle(\"Select first child\")",
+                    "target": "setTitle(\"选择第一个子块\")"
+                },
+                {
+                    "source": "setTitle(\"Duplicate subtree\")",
+                    "target": "setTitle(\"复制子树\")"
+                },
+                {
+                    "source": "setTitle(\"Reveal in Markdown\")",
+                    "target": "setTitle(\"在 Markdown 中显示\")"
+                },
+                {
+                    "source": "setTitle(\"Delete block\")",
+                    "target": "setTitle(\"删除块\")"
+                },
+                {
+                    "source": "setTitle(\"Delete subtree\")",
+                    "target": "setTitle(\"删除子树\")"
+                },
+                {
+                    "source": "error(\"[Arbor] Failed to save pasted image\", error);\n      new import_obsidian3.Notice(\"Arbor could not save the image into the vault.\")",
+                    "target": "error(\"[Arbor] 保存粘贴的图像失败\", error);\n      new import_obsidian3.Notice(\"Arbor 无法将图像保存到库中。\")"
+                },
+                {
+                    "source": "Notice(\"Open a Markdown note first to use this view.\")",
+                    "target": "Notice(\"请先打开一个 Markdown 笔记以使用此视图。\")"
+                },
+                {
+                    "source": "Notice(\"Arbor is desktop-first. Mobile support is intentionally limited.\")",
+                    "target": "Notice(\"Arbor 以桌面为主。移动端支持有意受限。\")"
+                },
+                {
+                    "source": "setTitle(\"New arbor note\")",
+                    "target": "setTitle(\"新 Arbor 笔记\")"
+                },
+                {
+                    "source": "description: \"Rewriting this note to Arbor's precise block format.\"",
+                    "target": "description: \"将此笔记重写为 Arbor 的精确块格式。\""
+                },
+                {
+                    "source": "name: \"Open view for current note\"",
+                    "target": "name: \"打开当前笔记的视图\""
+                },
+                {
+                    "source": "name: \"Create new note\"",
+                    "target": "name: \"创建新笔记\""
+                },
+                {
+                    "source": "name: \"Create new note in Markdown editor\"",
+                    "target": "name: \"在 Markdown 编辑器中创建新笔记\""
+                },
+                {
+                    "source": "name: \"Create demo note\"",
+                    "target": "name: \"创建演示笔记\""
+                }
+            ]
+        }
+    }
+}
