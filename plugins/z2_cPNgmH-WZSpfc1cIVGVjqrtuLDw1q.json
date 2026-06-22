@@ -1,0 +1,202 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pretty-properties",
+        "version": "1.0.0",
+        "title": "Pretty Properties",
+        "description": "Pretty Properties Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.10.18",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not update hiding metadata container",
+                    "target": "无法更新隐藏的元数据容器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not build tag decorations",
+                    "target": "无法构建标签装饰"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not update metadata widgets",
+                    "target": "无法更新元数据小部件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not render title icon in preview mode",
+                    "target": "无法在预览模式下渲染标题图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not render title icon in edit mode",
+                    "target": "无法在编辑模式下渲染标题图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not update cover for markdown view",
+                    "target": "无法更新 Markdown 视图的封面"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not update metadata containers on loading frontmatter",
+                    "target": "在加载 frontmatter 时无法更新元数据容器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not update images for file view",
+                    "target": "无法更新文件视图的图片"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not render title icon on file load",
+                    "target": "无法在文件加载时渲染标题图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Can not update metadata containers on file load",
+                    "target": "无法在文件加载时更新元数据容器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "click",
+                    "target": "点击"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "banner",
+                    "target": "banner"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "icon",
+                    "target": "icon"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "cover",
+                    "target": "cover"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "tasks",
+                    "target": "tasks"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "DD.MM.YYYY HH:mm",
+                    "target": "DD.MM.YYYY HH:mm"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "multi-select-pill setting-multi-select-pill",
+                    "target": "multi-select-pill setting-multi-select-pill"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "multi-select-pill setting-tag-pill",
+                    "target": "multi-select-pill setting-tag-pill"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "metadata-input-longtext setting-longtext-pill",
+                    "target": "metadata-input-longtext setting-longtext-pill"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "Pretty properties settings backup",
+                    "target": "精美属性设置备份"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(\"Can not update hiding metadata container\")",
+                    "target": "error(\"无法更新隐藏元数据容器\")"
+                },
+                {
+                    "source": "setPlaceholder(\"DD.MM.YYYY HH:mm\")",
+                    "target": "setPlaceholder(\"DD.MM.YYYY HH:mm\")"
+                },
+                {
+                    "source": "error(\"Can not build tag decorations\")",
+                    "target": "error(\"无法构建标签装饰\")"
+                },
+                {
+                    "source": "error(\"Can not update metadata widgets\")",
+                    "target": "error(\"无法更新元数据小部件\")"
+                },
+                {
+                    "source": "error(\"Can not render title icon in preview mode\")",
+                    "target": "error(\"无法在预览模式下渲染标题图标\")"
+                },
+                {
+                    "source": "error(\"Can not render title icon in edit mode\")",
+                    "target": "error(\"无法在编辑模式下渲染标题图标\")"
+                },
+                {
+                    "source": "error(\"Can not update cover for markdown view\")",
+                    "target": "error(\"无法更新 Markdown 视图的封面\")"
+                },
+                {
+                    "source": "error(\"Can not update metadata containers on loading frontmatter\")",
+                    "target": "error(\"无法在加载 frontmatter 时更新元数据容器\")"
+                },
+                {
+                    "source": "error(\"Can not update images for file view\")",
+                    "target": "error(\"无法更新文件视图的图片\")"
+                },
+                {
+                    "source": "error(\"Can not render title icon on file load\")",
+                    "target": "error(\"无法在文件加载时渲染标题图标\")"
+                },
+                {
+                    "source": "error(\"Can not update metadata containers on file load\")",
+                    "target": "error(\"无法在文件加载时更新元数据容器\")"
+                }
+            ]
+        }
+    }
+}
