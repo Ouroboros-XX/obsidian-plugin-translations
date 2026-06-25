@@ -1,0 +1,3436 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "folder-notes",
+        "version": "1.0.0",
+        "title": "Folder notes",
+        "description": "Folder notes Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.8.19",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "markdown",
+                    "target": "markdown"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "innerText",
+                    "source": "Edit overview",
+                    "target": "Edit overview"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "front matter title plugin",
+                    "target": "front matter title plugin"
+                },
+                {
+                    "type": "AssignmentExpression",
+                    "name": "textContent",
+                    "source": "Folder title",
+                    "target": "Folder title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ask for file type",
+                    "target": "ask for file type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "markdown",
+                    "target": "markdown"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "In the parent folder",
+                    "target": "In the parent folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Inside the folder",
+                    "target": "Inside the folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "ctrl",
+                    "target": "ctrl"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ctrl + Click",
+                    "target": "Ctrl + Click"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "alt",
+                    "target": "Alt"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Alt + Click",
+                    "target": "Alt + Click"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Cmd + Click",
+                    "target": "Cmd + Click"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Option + Click",
+                    "target": "Option + Click"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "click",
+                    "target": "Click"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Mouse Click",
+                    "target": "Mouse Click"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "trash",
+                    "target": "垃圾箱"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to system trash",
+                    "target": "移动到系统回收站"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Move to Obsidian trash (.trash folder)",
+                    "target": "移动到 Obsidian 回收站（.trash 文件夹）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "delete",
+                    "target": "删除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Delete permanently",
+                    "target": "Delete permanently"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "explorer",
+                    "target": "explorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Explorer",
+                    "target": "Explorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "list",
+                    "target": "list"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "List",
+                    "target": "List"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "modified",
+                    "target": "modified"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "修改时间",
+                    "target": "修改时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "created",
+                    "target": "created"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "创建时间",
+                    "target": "创建时间"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "name",
+                    "target": "name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "名称",
+                    "target": "名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "asc",
+                    "target": "asc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Ascending",
+                    "target": "Ascending"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "desc",
+                    "target": "desc"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Descending",
+                    "target": "Descending"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "default",
+                    "target": "default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Default",
+                    "target": "Default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Don't ask again",
+                    "target": "Don't ask again"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "Requires a restart to take effect",
+                    "target": "Requires a restart to take effect"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "The overview will show the subfolders and files of the folder you choose here. ",
+                    "target": "概览将显示您在此处选择的文件夹中的子文件夹和文件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "正则表达式和通配符仅适用于文件夹名称，不适用于路径。",
+                    "target": "正则表达式和通配符仅适用于文件夹名称，不适用于路径。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "appendText",
+                    "source": "如果要切换到文件夹路径，请先删除模式。",
+                    "target": "如果要切换到文件夹路径，请先删除模式。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createDiv",
+                    "source": "suggestion",
+                    "target": "suggestion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "div",
+                    "target": "div"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "label",
+                    "target": "label"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "textarea",
+                    "target": "textarea"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "nav",
+                    "target": "nav"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading Folder Overview plugin",
+                    "target": "loading Folder Overview plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Unloading Folder Overview plugin",
+                    "target": "Unloading Folder Overview plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "loading folder notes plugin",
+                    "target": "loading folder notes plugin"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Create",
+                    "target": "Create"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm",
+                    "target": "Confirm"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Rename existing folder notes",
+                    "target": "Rename existing folder notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add custom file type",
+                    "target": "Add custom file type"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Switch",
+                    "target": "Switch"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Manage",
+                    "target": "Manage"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择是否也要将该文件夹的子文件夹排除在外",
+                    "target": "请选择是否也要将该文件夹的子文件夹排除在外"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择文件夹名称改变时是否重命名文件夹备注",
+                    "target": "请选择文件夹名称改变时是否重命名文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择是否在文件夹概览中显示该文件夹",
+                    "target": "请选择是否在文件夹概览中显示该文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择是否在文件资源管理器中显示文件夹备注",
+                    "target": "请选择是否在文件资源管理器中显示文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择在创建新文件夹时是否自动创建文件夹备注",
+                    "target": "请选择在创建新文件夹时是否自动创建文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择在打开文件夹时是否打开文件夹备注",
+                    "target": "请选择在打开文件夹时是否打开文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择在打开文件夹备注时是否折叠文件夹",
+                    "target": "请选择在打开文件夹备注时是否折叠文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择是否也将该文件夹的子文件夹加入白名单",
+                    "target": "请选择是否也将该文件夹的子文件夹加入白名单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择在文件夹名称更改时是否同步更新文件夹备注名称",
+                    "target": "请选择在文件夹名称更改时是否同步更新文件夹备注名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择是否在文件资源管理器中隐藏文件夹备注",
+                    "target": "请选择是否在文件资源管理器中隐藏文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择是否允许在此文件夹中自动创建文件夹备注",
+                    "target": "请选择是否允许在此文件夹中自动创建文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择在点击文件夹时是否打开文件夹提示",
+                    "target": "请选择在点击文件夹时是否打开文件夹提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请选择在打开文件夹时是否折叠该文件夹（备注）",
+                    "target": "请选择在打开文件夹时是否折叠该文件夹（备注）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose the file extension for the folder notes.",
+                    "target": "选择文件夹注释的文件扩展名。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Every folder note that matches this name will be renamed to the new folder note name.",
+                    "target": "所有名称与此匹配的文件夹注释都将重命名为新的文件夹注释名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Every folder note that matches the old folder note name will be renamed to this name.",
+                    "target": "所有名称与旧文件夹名称匹配的文件夹注释都将重命名为此名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "All folder notes will use this name. Use {{folder_name}} to insert the folder’s name. Existing notes won’t update automatically; click on the button to apply the new name.",
+                    "target": "所有文件夹笔记都将使用此名称。使用 {{folder_name}} 插入文件夹名称。现有笔记不会自动更新；请点击按钮以应用新名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在标签页标题中使用实际的文件夹名称而不是自定义的文件夹注释名称（例如：\"文件夹注释\"）。",
+                    "target": "在标签页标题中使用实际的文件夹名称而不是自定义的文件夹注释名称（例如：\"文件夹注释\"）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择创建新文件夹笔记时使用的默认文件类型（画布、Markdown 等）。",
+                    "target": "选择创建新文件夹笔记时使用的默认文件类型（画布、Markdown 等）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Can be used with templater/templates plugin. If you add the location of the templates there.",
+                    "target": "可与 templater/templates 插件配合使用。只要在该插件中添加模板的位置即可。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose where to store the folder notes",
+                    "target": "Choose where to store the folder notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "删除文件夹时删除文件夹注释",
+                    "target": "删除文件夹时删除文件夹注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "移动文件夹时一并移动文件夹内的备注",
+                    "target": "移动文件夹时一并移动文件夹内的备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "创建文件夹笔记的快捷键",
+                    "target": "创建文件夹笔记的快捷键"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select the combination to open a folder note",
+                    "target": "选择组合以打开文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Ask for confirmation before deleting a folder note",
+                    "target": "删除文件夹备注前请确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What happens to the folder note after you delete it",
+                    "target": "删除文件夹注释后会发生什么"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Always open folder notes in a new tab unless the note is already open in the current tab.",
+                    "target": "除非笔记已在当前标签页中打开，否则请始终在新标签页中打开文件夹内的笔记。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果某个文件夹笔记已在某个标签页中打开，请将焦点移至该标签页，而不是新建一个标签页。",
+                    "target": "如果某个文件夹笔记已在某个标签页中打开，请将焦点移至该标签页，而不是新建一个标签页。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当文件夹名称更改时自动重命名文件夹备注",
+                    "target": "当文件夹名称更改时自动重命名文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "为保险库中的每个文件夹生成文件夹说明。",
+                    "target": "为保险库中的每个文件夹生成文件夹说明。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在创建新文件夹时自动创建文件夹备注。",
+                    "target": "在创建新文件夹时自动创建文件夹备注。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文件夹自动创建后，请立即打开它。",
+                    "target": "文件夹自动创建后，请立即打开它。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "此外，还会为附件文件夹（例如“附件”、“媒体”等）自动创建文件夹备注。",
+                    "target": "此外，还会为附件文件夹（例如“附件”、“媒体”等）自动创建文件夹备注。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically create a folder note when a regular note is created inside a folder. Works for supported file types only.",
+                    "target": "当在文件夹内创建普通笔记时，自动创建文件夹笔记。仅适用于受支持的文件类型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Restore the same settings tab after restarting Obsidian.",
+                    "target": "重启 Obsidian 后恢复相同的设置选项卡。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Keep the current settings tab open during the session, but reset it after a restart or reload.",
+                    "target": "在会话期间保持当前设置选项卡打开，但在重启或刷新后将其重置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Hide the folder note file from appearing in the file explorer",
+                    "target": "隐藏文件夹注释文件，使其不在文件资源管理器中显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Prevents folder notes from opening when tapping the folder name or surrounding area on mobile devices. They can now only be opened via the context menu or a command.",
+                    "target": "此设置可防止在移动设备上点击文件夹名称或其周围区域时打开文件夹备注。现在，文件夹备注只能通过右键菜单或命令打开。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Only allow folder notes to open when clicking directly on the folder name in the file explorer",
+                    "target": "仅允许在文件资源管理器中直接点击文件夹名称时打开文件夹注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, folders in the file explorer will only collapse when clicking the collapse icon next to the folder name, not when clicking near a folder name when it has a folder note.",
+                    "target": "启用此功能后，文件资源管理器中的文件夹仅在点击文件夹名称旁边的折叠图标时才会折叠，而不会在文件夹带有文件夹注释时点击文件夹名称附近的位置而折叠。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use submenus for file/folder commands",
+                    "target": "使用子菜单来执行文件/文件夹命令"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Automatically update the folder name in the file explorer when the front matter title plugin is enabled and the title for a folder note is changed in the front matter. This will not change the file name, only the displayed name in the file explorer.",
+                    "target": "当启用了前置信息标题插件，且在前置信息中更改了文件夹笔记的标题时，文件资源管理器中的文件夹名称将自动更新。这不会更改文件名，仅会更改文件资源管理器中显示的名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当文件夹带有文件夹注释且该注释已在编辑器中打开时，在文件资源管理器中突出显示该文件夹",
+                    "target": "当文件夹带有文件夹注释且该注释已在编辑器中打开时，在文件资源管理器中突出显示该文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当文件夹仅包含文件夹备注时，隐藏文件资源管理器中文件夹名称旁边的折叠图标",
+                    "target": "当文件夹仅包含文件夹备注时，隐藏文件资源管理器中文件夹名称旁边的折叠图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在文件资源管理器中，为带有文件夹注释的文件夹添加下划线",
+                    "target": "在文件资源管理器中，为带有文件夹注释的文件夹添加下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "只在路径中显示文件夹名称，隐藏文件夹笔记名称。",
+                    "target": "只在路径中显示文件夹名称，隐藏文件夹笔记名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当文件夹带有备注时，在文件资源管理器中将其文件夹名称加粗",
+                    "target": "当文件夹带有备注时，在文件资源管理器中将其文件夹名称加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当文件夹带有备注时，在文件资源管理器中将其文件夹名称显示为草书体",
+                    "target": "当文件夹带有备注时，在文件资源管理器中将其文件夹名称显示为草书体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当点击路径中的文件夹名称时，如果该文件夹有笔记，则打开该笔记",
+                    "target": "当点击路径中的文件夹名称时，如果该文件夹有笔记，则打开该笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "通过路径打开文件夹笔记时在移动设备上打开侧边栏",
+                    "target": "通过路径打开文件夹笔记时在移动设备上打开侧边栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "通过路径打开文件夹笔记时在桌面设备上打开侧边栏",
+                    "target": "通过路径打开文件夹笔记时在桌面设备上打开侧边栏"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "当启用了前置信息标题插件，且在前置信息中更改了文件夹笔记的标题时，自动更新路径中的文件夹名称。 这不会更改文件名，只会更改路径中显示的名称。",
+                    "target": "当启用了前置信息标题插件，且在前置信息中更改了文件夹笔记的标题时，自动更新路径中的文件夹名称。 这不会更改文件名，只会更改路径中显示的名称。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在笔记路径上方包含文件夹注释的文件夹上添加下划线",
+                    "target": "在笔记路径上方包含文件夹注释的文件夹上添加下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在笔记路径上方包含文件夹注释的文件夹名称加粗",
+                    "target": "在笔记路径上方包含文件夹注释的文件夹名称加粗"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在笔记路径上方包含文件夹注释的文件夹名称使用斜体显示",
+                    "target": "在笔记路径上方包含文件夹注释的文件夹名称使用斜体显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, the links that appear in the graph view will be updated even when you don't have the overview open somewhere.",
+                    "target": "如果启用此功能，即使您当前未打开概览页面，图表视图中显示的链接也会自动更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择概览是否应在您删除、创建或重命名文件/文件夹时自动更新",
+                    "target": "选择概览是否应在您删除、创建或重命名文件/文件夹时自动更新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否要在概览中允许拖拽",
+                    "target": "选择是否要在概览中允许拖拽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否显示文件夹概览上方的标题",
+                    "target": "选择是否显示文件夹概览上方的标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "数字越大，标题显示的字号就越小。",
+                    "target": "数字越大，标题显示的字号就越小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择概览中的链接是否应在图表视图中显示。这需要在实际概览下方添加第二个列表，且默认情况下是隐藏的。",
+                    "target": "选择概览中的链接是否应在图表视图中显示。这需要在实际概览下方添加第二个列表，且默认情况下是隐藏的。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择链接列表中的链接是否应采用维基链接格式或Markdown链接格式（例如，[[链接]] vs [链接](url)）。",
+                    "target": "选择链接列表中的链接是否应采用维基链接格式或Markdown链接格式（例如，[[链接]] vs [链接](url)）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否隐藏文件夹概览，仅显示链接列表",
+                    "target": "选择是否隐藏文件夹概览，仅显示链接列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否仅显示文件夹概览下的链接列表",
+                    "target": "选择是否仅显示文件夹概览下的链接列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择概览样式（网格样式即将推出）",
+                    "target": "选择概览样式（网格样式即将推出）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否在文件名后显示文件标签",
+                    "target": "选择是否在文件名后显示文件标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否在概览中显示文件夹备注（即备注本身，而非文件夹名称）",
+                    "target": "选择是否在概览中显示文件夹备注（即备注本身，而非文件夹名称）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "文件和文件夹 = +1 深度",
+                    "target": "文件和文件夹 = +1 深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择文件的排序方式",
+                    "target": "选择文件的排序方式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "在文件夹概览中显示看起来没有文件/文件夹的文件夹名称。这主要发生在您将文件深度设置为 1 时。",
+                    "target": "在文件夹概览中显示看起来没有文件/文件夹的文件夹名称。这主要发生在您将文件深度设置为 1 时。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Remove the collapse icon next to the folder name for folder notes when they only contain the folder note itself",
+                    "target": "Remove the collapse icon next to the folder name for folder notes when they only contain the folder note itself"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "选择是否在重启 Obsidian 前存储折叠条件",
+                    "target": "选择是否在重启 Obsidian 前存储折叠条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "默认情况下，折叠文件资源管理器中的每个文件夹",
+                    "target": "默认情况下，折叠文件资源管理器中的每个文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "请将文件夹/文件名替换为“Front Matter Title”插件中的标题。这需要先安装并启用该插件。",
+                    "target": "请将文件夹/文件名替换为“Front Matter Title”插件中的标题。这需要先安装并启用该插件。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "如果启用此功能，即使您当前未打开概览页面，图表视图中显示的链接也会自动更新。",
+                    "target": "如果启用此功能，即使您当前未打开概览页面，图表视图中显示的链接也会自动更新。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "覆盖被排除文件夹/模式的文件夹",
+                    "target": "覆盖被排除文件夹/模式的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "包含子文件夹",
+                    "target": "包含子文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "禁用文件夹名称同步",
+                    "target": "禁用文件夹名称同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "不在文件夹概览中显示该文件夹",
+                    "target": "不在文件夹概览中显示该文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在文件资源管理器中显示文件夹备注",
+                    "target": "在文件资源管理器中显示文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "禁用自动创建文件夹备注",
+                    "target": "禁用自动创建文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "禁用打开文件夹备注",
+                    "target": "禁用打开文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "打开文件夹备注时折叠文件夹",
+                    "target": "打开文件夹备注时折叠文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "启用文件夹名称同步",
+                    "target": "启用文件夹名称同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在文件夹概览中显示文件夹",
+                    "target": "在文件夹概览中显示文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在文件资源管理器中隐藏文件夹备注",
+                    "target": "在文件资源管理器中隐藏文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许在此文件夹中自动创建文件夹备注",
+                    "target": "允许在此文件夹中自动创建文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "点击文件夹时打开文件夹提示",
+                    "target": "点击文件夹时打开文件夹提示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "打开文件夹时不折叠该文件夹（备注）",
+                    "target": "打开文件夹时不折叠该文件夹（备注）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许自动创建文件夹备注",
+                    "target": "允许自动创建文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enter the name of the extension (only the short form, e.g. \"md\")",
+                    "target": "输入扩展名的名称（仅限简写形式，例如“md”）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder note file extension",
+                    "target": "文件夹注释文件扩展名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Old Folder Note Name",
+                    "target": "旧文件夹备注名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "New Folder Note Name",
+                    "target": "新文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件夹注释名称模板",
+                    "target": "文件夹注释名称模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在标签页标题中显示文件夹名称",
+                    "target": "在标签页标题中显示文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "新建文件夹笔记的默认文件类型",
+                    "target": "新建文件夹笔记的默认文件类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Supported file types",
+                    "target": "支持的文件类型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Template path",
+                    "target": "模板路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "存储位置",
+                    "target": "存储位置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "删除文件夹时一并删除文件夹内的备注",
+                    "target": "删除文件夹时一并删除文件夹内的备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "移动文件夹时一并移动文件夹内的备注",
+                    "target": "移动文件夹时一并移动文件夹内的备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建文件夹说明",
+                    "target": "创建文件夹说明"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Key for opening folder note",
+                    "target": "Key for opening folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Confirm folder note deletion",
+                    "target": "Confirm folder note deletion"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Deleted folder notes",
+                    "target": "Deleted folder notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open folder note in a new tab by default",
+                    "target": "Open folder note in a new tab by default"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "将焦点移至当前标签页，而非创建新标签页",
+                    "target": "将焦点移至当前标签页，而非创建新标签页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "同步文件夹名称",
+                    "target": "同步文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "为所有文件夹创建文件夹注释",
+                    "target": "为所有文件夹创建文件夹注释"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动创建文件夹备注",
+                    "target": "自动创建文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "创建后自动打开",
+                    "target": "创建后自动打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动创建附件文件夹",
+                    "target": "自动创建附件文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-create when creating notes",
+                    "target": "Auto-create when creating notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable front matter title plugin integration",
+                    "target": "Enable front matter title plugin integration"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Persist tab after restart",
+                    "target": "Persist tab after restart"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Persist tab during session only",
+                    "target": "Persist tab during session only"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Hide folder note",
+                    "target": "Hide folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable click-to-open folder note on mobile",
+                    "target": "Disable click-to-open folder note on mobile"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Open folder notes by only clicking directly on the folder name",
+                    "target": "Open folder notes by only clicking directly on the folder name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Disable folder collapsing",
+                    "target": "禁用文件夹折叠"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Use submenus",
+                    "target": "使用子菜单"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto update folder name in the file explorer (front matter title plugin only)",
+                    "target": "在文件资源管理器中自动更新文件夹名称（仅限前置信息标题插件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在文件资源管理器中突出显示文件夹",
+                    "target": "在文件资源管理器中突出显示文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "隐藏折叠图标",
+                    "target": "隐藏折叠图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在“笔记”文件夹名称下方画一条下划线",
+                    "target": "在“笔记”文件夹名称下方画一条下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在路径中隐藏文件夹笔记名称",
+                    "target": "在路径中隐藏文件夹笔记名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "加粗文件夹名称",
+                    "target": "加粗文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "将文件夹名称写成草书体",
+                    "target": "将文件夹名称写成草书体"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "通过路径打开文件夹笔记",
+                    "target": "通过路径打开文件夹笔记"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "通过路径打开文件夹笔记时打开侧边栏（仅限移动设备）",
+                    "target": "通过路径打开文件夹笔记时打开侧边栏（仅限移动设备）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "通过路径打开文件夹笔记时打开侧边栏（仅限桌面设备）",
+                    "target": "通过路径打开文件夹笔记时打开侧边栏（仅限桌面设备）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动更新路径中的文件夹名称（仅限前置信息标题插件）",
+                    "target": "自动更新路径中的文件夹名称（仅限前置信息标题插件）"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在路径中对文件夹加下划线",
+                    "target": "在路径中对文件夹加下划线"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在路径中加粗文件夹名称",
+                    "target": "在路径中加粗文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在路径中使用斜体显示文件夹名称",
+                    "target": "在路径中使用斜体显示文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Auto-update links without opening the overview",
+                    "target": "在不打开概览页的情况下自动更新链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "自动同步",
+                    "target": "自动同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "允许拖拽",
+                    "target": "允许拖拽"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示标题",
+                    "target": "显示标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Title",
+                    "target": "Title"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "标题大小",
+                    "target": "标题大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Folder path for the overview",
+                    "target": "Folder path for the overview"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用实际链接",
+                    "target": "使用实际链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "使用维基链接",
+                    "target": "使用维基链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "隐藏文件夹概览",
+                    "target": "隐藏文件夹概览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "隐藏链接列表",
+                    "target": "隐藏链接列表"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "概述样式",
+                    "target": "概述样式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Include types",
+                    "target": "Include types"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "禁用文件标签",
+                    "target": "禁用文件标签"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示文件夹备注",
+                    "target": "显示文件夹备注"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "文件深度",
+                    "target": "文件深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "排序文件",
+                    "target": "排序文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "显示空文件夹名称",
+                    "target": "显示空文件夹名称"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "仅显示位于文件夹概览第一级且为空的文件夹",
+                    "target": "仅显示位于文件夹概览第一级且为空的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "禁用文件夹备注的折叠图标",
+                    "target": "禁用文件夹备注的折叠图标"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "存储折叠条件",
+                    "target": "存储折叠条件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "默认折叠树中的所有文件夹",
+                    "target": "默认折叠树中的所有文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "前言标题插件集成",
+                    "target": "前言标题插件集成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "在不打开概览页的情况下自动更新链接",
+                    "target": "在不打开概览页的情况下自动更新链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "添加白名单文件夹",
+                    "target": "添加白名单文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "管理排除的文件夹",
+                    "target": "管理排除的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "白名单文件夹",
+                    "target": "白名单文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "排除文件夹的默认设置",
+                    "target": "排除文件夹的默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "排除模式的默认设置",
+                    "target": "排除模式的默认设置"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "添加排除文件夹",
+                    "target": "添加排除文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "选择概览",
+                    "target": "选择概览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Pattern",
+                    "target": "Pattern"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Folder path",
+                    "target": "Folder path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the old folder note name",
+                    "target": "Enter the old folder note name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter the new folder note name",
+                    "target": "Enter the new folder note name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Template path",
+                    "target": "Template path"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Edit folder overview",
+                    "target": "编辑文件夹概览"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Rename",
+                    "target": "重命名"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete",
+                    "target": "Delete"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create folder note",
+                    "target": "Create folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove folder from excluded folders",
+                    "target": "Remove folder from excluded folders"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Remove folder from detached folders",
+                    "target": "Remove folder from detached folders"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Exclude folder from folder notes",
+                    "target": "Exclude folder from folder notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Delete folder note",
+                    "target": "Delete folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open folder note",
+                    "target": "Open folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Detach folder note",
+                    "target": "Detach folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy Obsidian URL",
+                    "target": "Copy Obsidian URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Hide folder note in explorer",
+                    "target": "Hide folder note in explorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Show folder note in explorer",
+                    "target": "Show folder note in explorer"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Create markdown folder note",
+                    "target": "Create markdown folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Folder Note Commands",
+                    "target": "Folder Note Commands"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Insert folder overview",
+                    "target": "Insert folder overview"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit pattern",
+                    "target": "Edit pattern"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move up",
+                    "target": "Move up"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Move down",
+                    "target": "Move down"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete pattern",
+                    "target": "Delete pattern"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Edit folder note",
+                    "target": "Edit folder note"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Delete excluded folder",
+                    "target": "Delete excluded folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Create folder notes",
+                    "target": "Create folder notes"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add whitelisted folder",
+                    "target": "Add whitelisted folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTooltip",
+                    "source": "Add excluded folder",
+                    "target": "Add excluded folder"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "IndexedDB is blocked:",
+                    "target": "IndexedDB is blocked:"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "This extension is already supported",
+                    "target": "This extension is already supported"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please choose a file extension",
+                    "target": "Please choose a file extension"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder overview: Couldn't find the folder",
+                    "target": "Folder overview: Couldn't find the folder"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting to update folder notes...",
+                    "target": "Starting to update folder notes..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Finished updating folder notes",
+                    "target": "Finished updating folder notes"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Starting to switch storage location...",
+                    "target": "Starting to switch storage location..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Finished switching storage location",
+                    "target": "Finished switching storage location"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder already exists",
+                    "target": "Folder already exists"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File name cannot contain any of the following characters: * \" \\ / < > : | ?",
+                    "target": "File name cannot contain any of the following characters: * \" \\ / < > : | ?"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File name cannot end with a dot",
+                    "target": "File name cannot end with a dot"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Folder note already exists",
+                    "target": "Folder note already exists"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "File already exists",
+                    "target": "File already exists"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully removed folder from excluded folders",
+                    "target": "Successfully removed folder from excluded folders"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Successfully excluded folder from folder notes",
+                    "target": "Successfully excluded folder from folder notes"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "A folder with the same name already exists",
+                    "target": "A folder with the same name already exists"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Indexing files for folder overview plugin...",
+                    "target": "Indexing files for folder overview plugin..."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Indexed files for folder overview plugin.",
+                    "target": "Indexed files for folder overview plugin."
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Error creating folder overview (folder notes plugin) - check console for more details",
+                    "target": "Error creating folder overview (folder notes plugin) - check console for more details"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "ofn-list-item-remove setting-hotkey-icon",
+                    "target": "ofn-list-item-remove setting-hotkey-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "clickable-icon setting-restore-hotkey-button",
+                    "target": "clickable-icon setting-restore-hotkey-button"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-children nav-folder-children",
+                    "target": "tree-item-children nav-folder-children"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item nav-folder",
+                    "target": "tree-item nav-folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-self is-clickable nav-folder-title",
+                    "target": "tree-item-self is-clickable nav-folder-title"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-inner nav-folder-title-content",
+                    "target": "tree-item-inner nav-folder-title-content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-icon collapse-icon nav-folder-collapse-indicator fn-folder-overview-collapse-icon",
+                    "target": "tree-item-icon collapse-icon nav-folder-collapse-indicator fn-folder-overview-collapse-icon"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item nav-file",
+                    "target": "tree-item nav-file"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-self is-clickable nav-file-title pointer-cursor",
+                    "target": "tree-item-self is-clickable nav-file-title pointer-cursor"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "tree-item-inner nav-file-title-content",
+                    "target": "tree-item-inner nav-file-title-content"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "folder-overview-list folder-list",
+                    "target": "folder-overview-list folder-list"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "folder-overview-list-item folder-name-item internal-link",
+                    "target": "folder-overview-list-item folder-name-item internal-link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "folder-overview-list-item folder-name-item",
+                    "target": "folder-overview-list-item folder-name-item"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "folder-overview-list file-link",
+                    "target": "folder-overview-list file-link"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Markdown",
+                    "target": "Markdown"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Canvas",
+                    "target": "Canvas"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Bases",
+                    "target": "Bases"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Excalidraw",
+                    "target": "Excalidraw"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Custom extension",
+                    "target": "Custom extension"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Folder",
+                    "target": "Folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "PDF",
+                    "target": "PDF"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Image",
+                    "target": "Image"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Audio",
+                    "target": "Audio"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Video",
+                    "target": "Video"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "All other file types",
+                    "target": "All other file types"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "All file types",
+                    "target": "All file types"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "arrow",
+                    "target": "arrow"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "flip",
+                    "target": "flip"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "hide",
+                    "target": "hide"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "offset",
+                    "target": "offset"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "You need to set the Templates folder in the Templater settings first.",
+                    "target": "You need to set the Templates folder in the Templater settings first."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "General",
+                    "target": "General"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Folder overview",
+                    "target": "Folder overview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Exclude folders",
+                    "target": "Exclude folders"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "File explorer",
+                    "target": "File explorer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Path",
+                    "target": "Path"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Use this file as the folder note for its parent folder",
+                    "target": "Use this file as the folder note for its parent folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Make a folder with this file as its folder note",
+                    "target": "Make a folder with this file as its folder note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create markdown folder note for this folder",
+                    "target": "Create markdown folder note for this folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete this folder's linked note",
+                    "target": "Delete this folder's linked note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Delete folder note of current active folder in file explorer",
+                    "target": "Delete folder note of current active folder in file explorer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open this folder's linked note",
+                    "target": "Open this folder's linked note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open folder note of current active folder in file explorer",
+                    "target": "Open folder note of current active folder in file explorer"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Create folder note from selection",
+                    "target": "Create folder note from selection"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Edit folder overview",
+                    "target": "Edit folder overview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Insert folder overview",
+                    "target": "Insert folder overview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Enter the name of the folder",
+                    "target": "Enter the name of the folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "A folder note for this folder already exists",
+                    "target": "A folder note for this folder already exists"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Are you sure you want to turn the note into a folder note and rename the existing folder note?",
+                    "target": "Are you sure you want to turn the note into a folder note and rename the existing folder note?"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename and don't ask again",
+                    "target": "Rename and don't ask again"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Don't ask again",
+                    "target": "Don't ask again"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Rename",
+                    "target": "Rename"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Cancel",
+                    "target": "Cancel"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete folder note",
+                    "target": "Delete folder note"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It will be moved to your system trash.",
+                    "target": "It will be moved to your system trash."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It will be moved to your Obsidian trash, which is located in the \".trash\" hidden folder in your vault.",
+                    "target": "It will be moved to your Obsidian trash, which is located in the \".trash\" hidden folder in your vault."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "It will be permanently deleted.",
+                    "target": "It will be permanently deleted."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete and don't ask again",
+                    "target": "Delete and don't ask again"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Delete",
+                    "target": "Delete"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Excluded folder settings",
+                    "target": "Excluded folder settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Pattern settings",
+                    "target": "Pattern settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Whitelisted folder settings",
+                    "target": "Whitelisted folder settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Whitelisted pattern settings",
+                    "target": "Whitelisted pattern settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Extension name",
+                    "target": "Extension name"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Create folder note for every folder",
+                    "target": "Create folder note for every folder"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Make sure to backup your vault before using this feature.",
+                    "target": "Make sure to backup your vault before using this feature."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "This feature will create a folder note for every folder in your vault.",
+                    "target": "This feature will create a folder note for every folder in your vault."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Every folder that already has a folder note will be ignored.",
+                    "target": "Every folder that already has a folder note will be ignored."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Every excluded folder will be ignored.",
+                    "target": "Every excluded folder will be ignored."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Keyboard Shortcuts",
+                    "target": "Keyboard Shortcuts"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder note behavior",
+                    "target": "Folder note behavior"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Automation settings",
+                    "target": "Automation settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Integration & Compatibility",
+                    "target": "Integration & Compatibility"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Session & Persistence",
+                    "target": "Session & Persistence"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Style settings",
+                    "target": "Style settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder overview settings",
+                    "target": "Folder overview settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Default folder overview settings",
+                    "target": "Default folder overview settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Save",
+                    "target": "Save"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Global settings",
+                    "target": "Global settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Overviews default settings",
+                    "target": "Overviews default settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Edit the default settings for new folder overviews, ",
+                    "target": "Edit the default settings for new folder overviews, "
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "this won't apply to already existing overviews.",
+                    "target": "this won't apply to already existing overviews."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Find more information about the title in the documentation. There is also a list of variables you can use",
+                    "target": "Find more information about the title in the documentation. There is also a list of variables you can use"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Find more information about this setting in the documentation.",
+                    "target": "Find more information about this setting in the documentation."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Manage whitelisted folders",
+                    "target": "Manage whitelisted folders"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Folder Overview settings",
+                    "target": "Folder Overview settings"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "title",
+                    "source": "{{folderName}} overview",
+                    "target": "{{folderName}} overview"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "checkbox",
+                    "target": "checkbox"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "appendText(\"Don't ask again\")",
+                    "target": "appendText(\"Don't ask again\")"
+                },
+                {
+                    "source": "setName(\"包含子文件夹\")",
+                    "target": "setName(\"包含子文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"请选择是否也要将该文件夹的子文件夹排除在外\")",
+                    "target": "setDesc(\"请选择是否也要将该文件夹的子文件夹排除在外\")"
+                },
+                {
+                    "source": "setName(\"禁用文件夹名称同步\")",
+                    "target": "setName(\"禁用文件夹名称同步\")"
+                },
+                {
+                    "source": "setDesc(\"请选择文件夹名称改变时是否重命名文件夹备注\")",
+                    "target": "setDesc(\"请选择文件夹名称改变时是否重命名文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"不在文件夹概览中显示该文件夹\")",
+                    "target": "setName(\"不在文件夹概览中显示该文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"请选择是否在文件夹概览中显示该文件夹\")",
+                    "target": "setDesc(\"请选择是否在文件夹概览中显示该文件夹\")"
+                },
+                {
+                    "source": "setName(\"在文件资源管理器中显示文件夹备注\")",
+                    "target": "setName(\"在文件资源管理器中显示文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"请选择是否在文件资源管理器中显示文件夹备注\")",
+                    "target": "setDesc(\"请选择是否在文件资源管理器中显示文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"禁用自动创建文件夹备注\")",
+                    "target": "setName(\"禁用自动创建文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"请选择在创建新文件夹时是否自动创建文件夹备注\")",
+                    "target": "setDesc(\"请选择在创建新文件夹时是否自动创建文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"禁用打开文件夹备注\")",
+                    "target": "setName(\"禁用打开文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"请选择在打开文件夹时是否打开文件夹备注\")",
+                    "target": "setDesc(\"请选择在打开文件夹时是否打开文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"打开文件夹备注时折叠文件夹\")",
+                    "target": "setName(\"打开文件夹备注时折叠文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"请选择在打开文件夹备注时是否折叠文件夹\")",
+                    "target": "setDesc(\"请选择在打开文件夹备注时是否折叠文件夹\")"
+                },
+                {
+                    "source": "setTooltip(\"Edit pattern\")",
+                    "target": "setTooltip(\"Edit pattern\")"
+                },
+                {
+                    "source": "setTooltip(\"Move up\")",
+                    "target": "setTooltip(\"Move up\")"
+                },
+                {
+                    "source": "setTooltip(\"Move down\")",
+                    "target": "setTooltip(\"Move down\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete pattern\")",
+                    "target": "setTooltip(\"Delete pattern\")"
+                },
+                {
+                    "source": "setDesc(\"请选择是否也将该文件夹的子文件夹加入白名单\")",
+                    "target": "setDesc(\"请选择是否也将该文件夹的子文件夹加入白名单\")"
+                },
+                {
+                    "source": "setName(\"启用文件夹名称同步\")",
+                    "target": "setName(\"启用文件夹名称同步\")"
+                },
+                {
+                    "source": "setDesc(\"请选择在文件夹名称更改时是否同步更新文件夹备注名称\")",
+                    "target": "setDesc(\"请选择在文件夹名称更改时是否同步更新文件夹备注名称\")"
+                },
+                {
+                    "source": "setName(\"在文件夹概览中显示文件夹\")",
+                    "target": "setName(\"在文件夹概览中显示文件夹\")"
+                },
+                {
+                    "source": "setName(\"在文件资源管理器中隐藏文件夹备注\")",
+                    "target": "setName(\"在文件资源管理器中隐藏文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"请选择是否在文件资源管理器中隐藏文件夹备注\")",
+                    "target": "setDesc(\"请选择是否在文件资源管理器中隐藏文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"允许在此文件夹中自动创建文件夹备注\")",
+                    "target": "setName(\"允许在此文件夹中自动创建文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"请选择是否允许在此文件夹中自动创建文件夹备注\")",
+                    "target": "setDesc(\"请选择是否允许在此文件夹中自动创建文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"点击文件夹时打开文件夹提示\")",
+                    "target": "setName(\"点击文件夹时打开文件夹提示\")"
+                },
+                {
+                    "source": "setDesc(\"请选择在点击文件夹时是否打开文件夹提示\")",
+                    "target": "setDesc(\"请选择在点击文件夹时是否打开文件夹提示\")"
+                },
+                {
+                    "source": "setName(\"打开文件夹时不折叠该文件夹（备注）\")",
+                    "target": "setName(\"打开文件夹时不折叠该文件夹（备注）\")"
+                },
+                {
+                    "source": "setDesc(\"请选择在打开文件夹时是否折叠该文件夹（备注）\")",
+                    "target": "setDesc(\"请选择在打开文件夹时是否折叠该文件夹（备注）\")"
+                },
+                {
+                    "source": "setName(\"允许自动创建文件夹备注\")",
+                    "target": "setName(\"允许自动创建文件夹备注\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Folder path\")",
+                    "target": "setPlaceholder(\"Folder path\")"
+                },
+                {
+                    "source": "setTooltip(\"Edit folder note\")",
+                    "target": "setTooltip(\"Edit folder note\")"
+                },
+                {
+                    "source": "setTooltip(\"Delete excluded folder\")",
+                    "target": "setTooltip(\"Delete excluded folder\")"
+                },
+                {
+                    "source": "setName('Enter the name of the extension (only the short form, e.g. \"md\")')",
+                    "target": "setName('Enter the name of the extension (only the short form, e.g. \"md\")')"
+                },
+                {
+                    "source": "Notice(\"This extension is already supported\")",
+                    "target": "Notice(\"This extension is already supported\")"
+                },
+                {
+                    "source": "setName(\"Folder note file extension\")",
+                    "target": "setName(\"Folder note file extension\")"
+                },
+                {
+                    "source": "setDesc(\"Choose the file extension for the folder notes.\")",
+                    "target": "setDesc(\"Choose the file extension for the folder notes.\")"
+                },
+                {
+                    "source": "Notice(\"Please choose a file extension\")",
+                    "target": "Notice(\"Please choose a file extension\")"
+                },
+                {
+                    "source": "setText(`${((_a = file.parent) == null ? void 0 : _a.path) !== \"/\" ? ((_b = file.parent) == null ? void 0 : _b.path) + \"/\" : \"\"}${file.name}`)",
+                    "target": "setText(`${((_a = file.parent) == null ? void 0 : _a.path) !== \"/\" ? ((_b = file.parent) == null ? void 0 : _b.path) + \"/\" : \"\"}${file.name}`)"
+                },
+                {
+                    "source": "setName(\"Old Folder Note Name\")",
+                    "target": "setName(\"Old Folder Note Name\")"
+                },
+                {
+                    "source": "setDesc(\"Every folder note that matches this name will be renamed to the new folder note name.\")",
+                    "target": "setDesc(\"Every folder note that matches this name will be renamed to the new folder note name.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter the old folder note name\")",
+                    "target": "setPlaceholder(\"Enter the old folder note name\")"
+                },
+                {
+                    "source": "setName(\"New Folder Note Name\")",
+                    "target": "setName(\"New Folder Note Name\")"
+                },
+                {
+                    "source": "setDesc(\"Every folder note that matches the old folder note name will be renamed to this name.\")",
+                    "target": "setDesc(\"Every folder note that matches the old folder note name will be renamed to this name.\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter the new folder note name\")",
+                    "target": "setPlaceholder(\"Enter the new folder note name\")"
+                },
+                {
+                    "source": "setName(\"文件夹注释名称模板\")",
+                    "target": "setName(\"文件夹注释名称模板\")"
+                },
+                {
+                    "source": "setButtonText(\"Rename existing folder notes\")",
+                    "target": "setButtonText(\"Rename existing folder notes\")"
+                },
+                {
+                    "source": "appendText(\"Requires a restart to take effect\")",
+                    "target": "appendText(\"Requires a restart to take effect\")"
+                },
+                {
+                    "source": "setName(\"在标签页标题中显示文件夹名称\")",
+                    "target": "setName(\"在标签页标题中显示文件夹名称\")"
+                },
+                {
+                    "source": "setDesc('在标签页标题中使用实际的文件夹名称而不是自定义的文件夹注释名称（例如：\"文件夹注释\"）。')",
+                    "target": "setDesc('在标签页标题中使用实际的文件夹名称而不是自定义的文件夹注释名称（例如：\"文件夹注释\"）。')"
+                },
+                {
+                    "source": "setName(\"新建文件夹笔记的默认文件类型\")",
+                    "target": "setName(\"新建文件夹笔记的默认文件类型\")"
+                },
+                {
+                    "source": "setDesc(\"选择创建新文件夹笔记时使用的默认文件类型（画布、Markdown 等）。\")",
+                    "target": "setDesc(\"选择创建新文件夹笔记时使用的默认文件类型（画布、Markdown 等）。\")"
+                },
+                {
+                    "source": "setName(\"Supported file types\")",
+                    "target": "setName(\"Supported file types\")"
+                },
+                {
+                    "source": "setButtonText(\"Add custom file type\")",
+                    "target": "setButtonText(\"Add custom file type\")"
+                },
+                {
+                    "source": "setDesc(\"Can be used with templater/templates plugin. If you add the location of the templates there.\")",
+                    "target": "setDesc(\"Can be used with templater/templates plugin. If you add the location of the templates there.\")"
+                },
+                {
+                    "source": "setName(\"Template path\")",
+                    "target": "setName(\"Template path\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Template path\")",
+                    "target": "setPlaceholder(\"Template path\")"
+                },
+                {
+                    "source": "setName(\"存储位置\")",
+                    "target": "setName(\"存储位置\")"
+                },
+                {
+                    "source": "setDesc(\"Choose where to store the folder notes\")",
+                    "target": "setDesc(\"Choose where to store the folder notes\")"
+                },
+                {
+                    "source": "setName(\"删除文件夹时一并删除文件夹内的备注\")",
+                    "target": "setName(\"删除文件夹时一并删除文件夹内的备注\")"
+                },
+                {
+                    "source": "setDesc(\"删除文件夹时删除文件夹注释\")",
+                    "target": "setDesc(\"删除文件夹时删除文件夹注释\")"
+                },
+                {
+                    "source": "setName(\"移动文件夹时一并移动文件夹内的备注\")",
+                    "target": "setName(\"移动文件夹时一并移动文件夹内的备注\")"
+                },
+                {
+                    "source": "setDesc(\"移动文件夹时一并移动文件夹内的备注\")",
+                    "target": "setDesc(\"移动文件夹时一并移动文件夹内的备注\")"
+                },
+                {
+                    "source": "setName(\"创建文件夹说明\")",
+                    "target": "setName(\"创建文件夹说明\")"
+                },
+                {
+                    "source": "setDesc(\"创建文件夹笔记的快捷键\")",
+                    "target": "setDesc(\"创建文件夹笔记的快捷键\")"
+                },
+                {
+                    "source": "setName(\"Key for opening folder note\")",
+                    "target": "setName(\"Key for opening folder note\")"
+                },
+                {
+                    "source": "setDesc(\"Select the combination to open a folder note\")",
+                    "target": "setDesc(\"Select the combination to open a folder note\")"
+                },
+                {
+                    "source": "setName(\"Confirm folder note deletion\")",
+                    "target": "setName(\"Confirm folder note deletion\")"
+                },
+                {
+                    "source": "setDesc(\"Ask for confirmation before deleting a folder note\")",
+                    "target": "setDesc(\"Ask for confirmation before deleting a folder note\")"
+                },
+                {
+                    "source": "setName(\"Deleted folder notes\")",
+                    "target": "setName(\"Deleted folder notes\")"
+                },
+                {
+                    "source": "setDesc(\"What happens to the folder note after you delete it\")",
+                    "target": "setDesc(\"What happens to the folder note after you delete it\")"
+                },
+                {
+                    "source": "setName(\"Open folder note in a new tab by default\")",
+                    "target": "setName(\"Open folder note in a new tab by default\")"
+                },
+                {
+                    "source": "setDesc(\"Always open folder notes in a new tab unless the note is already open in the current tab.\")",
+                    "target": "setDesc(\"Always open folder notes in a new tab unless the note is already open in the current tab.\")"
+                },
+                {
+                    "source": "setName(\"将焦点移至当前标签页，而非创建新标签页\")",
+                    "target": "setName(\"将焦点移至当前标签页，而非创建新标签页\")"
+                },
+                {
+                    "source": "setDesc(\"如果某个文件夹笔记已在某个标签页中打开，请将焦点移至该标签页，而不是新建一个标签页。\")",
+                    "target": "setDesc(\"如果某个文件夹笔记已在某个标签页中打开，请将焦点移至该标签页，而不是新建一个标签页。\")"
+                },
+                {
+                    "source": "setName(\"同步文件夹名称\")",
+                    "target": "setName(\"同步文件夹名称\")"
+                },
+                {
+                    "source": "setDesc(\"当文件夹名称更改时自动重命名文件夹备注\")",
+                    "target": "setDesc(\"当文件夹名称更改时自动重命名文件夹备注\")"
+                },
+                {
+                    "source": "setName(\"为所有文件夹创建文件夹注释\")",
+                    "target": "setName(\"为所有文件夹创建文件夹注释\")"
+                },
+                {
+                    "source": "setDesc(\"为保险库中的每个文件夹生成文件夹说明。\")",
+                    "target": "setDesc(\"为保险库中的每个文件夹生成文件夹说明。\")"
+                },
+                {
+                    "source": "setTooltip(\"Create folder notes\")",
+                    "target": "setTooltip(\"Create folder notes\")"
+                },
+                {
+                    "source": "setName(\"自动创建文件夹备注\")",
+                    "target": "setName(\"自动创建文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"在创建新文件夹时自动创建文件夹备注。\")",
+                    "target": "setDesc(\"在创建新文件夹时自动创建文件夹备注。\")"
+                },
+                {
+                    "source": "setName(\"创建后自动打开\")",
+                    "target": "setName(\"创建后自动打开\")"
+                },
+                {
+                    "source": "setDesc(\"文件夹自动创建后，请立即打开它。\")",
+                    "target": "setDesc(\"文件夹自动创建后，请立即打开它。\")"
+                },
+                {
+                    "source": "setName(\"自动创建附件文件夹\")",
+                    "target": "setName(\"自动创建附件文件夹\")"
+                },
+                {
+                    "source": "setDesc('此外，还会为附件文件夹（例如“附件”、“媒体”等）自动创建文件夹备注。')",
+                    "target": "setDesc('此外，还会为附件文件夹（例如“附件”、“媒体”等）自动创建文件夹备注。')"
+                },
+                {
+                    "source": "setName(\"Auto-create when creating notes\")",
+                    "target": "setName(\"Auto-create when creating notes\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically create a folder note when a regular note is created inside a folder. Works for supported file types only.\")",
+                    "target": "setDesc(\"Automatically create a folder note when a regular note is created inside a folder. Works for supported file types only.\")"
+                },
+                {
+                    "source": "setName(\"Enable front matter title plugin integration\")",
+                    "target": "setName(\"Enable front matter title plugin integration\")"
+                },
+                {
+                    "source": "setName(\"Persist tab after restart\")",
+                    "target": "setName(\"Persist tab after restart\")"
+                },
+                {
+                    "source": "setDesc(\"Restore the same settings tab after restarting Obsidian.\")",
+                    "target": "setDesc(\"Restore the same settings tab after restarting Obsidian.\")"
+                },
+                {
+                    "source": "setName(\"Persist tab during session only\")",
+                    "target": "setName(\"Persist tab during session only\")"
+                },
+                {
+                    "source": "setDesc(\"Keep the current settings tab open during the session, but reset it after a restart or reload.\")",
+                    "target": "setDesc(\"Keep the current settings tab open during the session, but reset it after a restart or reload.\")"
+                },
+                {
+                    "source": "setName(\"Hide folder note\")",
+                    "target": "setName(\"Hide folder note\")"
+                },
+                {
+                    "source": "setDesc(\"Hide the folder note file from appearing in the file explorer\")",
+                    "target": "setDesc(\"Hide the folder note file from appearing in the file explorer\")"
+                },
+                {
+                    "source": "setName(\"Disable click-to-open folder note on mobile\")",
+                    "target": "setName(\"Disable click-to-open folder note on mobile\")"
+                },
+                {
+                    "source": "setDesc(\"Prevents folder notes from opening when tapping the folder name or surrounding area on mobile devices. They can now only be opened via the context menu or a command.\")",
+                    "target": "setDesc(\"Prevents folder notes from opening when tapping the folder name or surrounding area on mobile devices. They can now only be opened via the context menu or a command.\")"
+                },
+                {
+                    "source": "setName(\"Open folder notes by only clicking directly on the folder name\")",
+                    "target": "setName(\"Open folder notes by only clicking directly on the folder name\")"
+                },
+                {
+                    "source": "setDesc(\"Only allow folder notes to open when clicking directly on the folder name in the file explorer\")",
+                    "target": "setDesc(\"Only allow folder notes to open when clicking directly on the folder name in the file explorer\")"
+                },
+                {
+                    "source": "setName(\"Disable folder collapsing\")",
+                    "target": "setName(\"Disable folder collapsing\")"
+                },
+                {
+                    "source": "setDesc(\"When enabled, folders in the file explorer will only collapse when clicking the collapse icon next to the folder name, not when clicking near a folder name when it has a folder note.\")",
+                    "target": "setDesc(\"When enabled, folders in the file explorer will only collapse when clicking the collapse icon next to the folder name, not when clicking near a folder name when it has a folder note.\")"
+                },
+                {
+                    "source": "setName(\"Use submenus\")",
+                    "target": "setName(\"Use submenus\")"
+                },
+                {
+                    "source": "setDesc(\"Use submenus for file/folder commands\")",
+                    "target": "setDesc(\"Use submenus for file/folder commands\")"
+                },
+                {
+                    "source": "setName(\"Auto update folder name in the file explorer (front matter title plugin only)\")",
+                    "target": "setName(\"Auto update folder name in the file explorer (front matter title plugin only)\")"
+                },
+                {
+                    "source": "setDesc(\"Automatically update the folder name in the file explorer when the front matter title plugin is enabled and the title for a folder note is changed in the front matter. This will not change the file name, only the displayed name in the file explorer.\")",
+                    "target": "setDesc(\"Automatically update the folder name in the file explorer when the front matter title plugin is enabled and the title for a folder note is changed in the front matter. This will not change the file name, only the displayed name in the file explorer.\")"
+                },
+                {
+                    "source": "setName(\"在文件资源管理器中突出显示文件夹\")",
+                    "target": "setName(\"在文件资源管理器中突出显示文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"当文件夹带有文件夹注释且该注释已在编辑器中打开时，在文件资源管理器中突出显示该文件夹\")",
+                    "target": "setDesc(\"当文件夹带有文件夹注释且该注释已在编辑器中打开时，在文件资源管理器中突出显示该文件夹\")"
+                },
+                {
+                    "source": "setName(\"隐藏折叠图标\")",
+                    "target": "setName(\"隐藏折叠图标\")"
+                },
+                {
+                    "source": "setDesc(\"当文件夹仅包含文件夹备注时，隐藏文件资源管理器中文件夹名称旁边的折叠图标\")",
+                    "target": "setDesc(\"当文件夹仅包含文件夹备注时，隐藏文件资源管理器中文件夹名称旁边的折叠图标\")"
+                },
+                {
+                    "source": "setName(\"在“笔记”文件夹名称下方画一条下划线\")",
+                    "target": "setName(\"在“笔记”文件夹名称下方画一条下划线\")"
+                },
+                {
+                    "source": "setDesc(\"在文件资源管理器中，为带有文件夹注释的文件夹添加下划线\")",
+                    "target": "setDesc(\"在文件资源管理器中，为带有文件夹注释的文件夹添加下划线\")"
+                },
+                {
+                    "source": "setName(\"在路径中隐藏文件夹笔记名称\")",
+                    "target": "setName(\"在路径中隐藏文件夹笔记名称\")"
+                },
+                {
+                    "source": "setDesc(\"只在路径中显示文件夹名称，隐藏文件夹笔记名称。\")",
+                    "target": "setDesc(\"只在路径中显示文件夹名称，隐藏文件夹笔记名称。\")"
+                },
+                {
+                    "source": "setName(\"加粗文件夹名称\")",
+                    "target": "setName(\"加粗文件夹名称\")"
+                },
+                {
+                    "source": "setDesc(\"当文件夹带有备注时，在文件资源管理器中将其文件夹名称加粗\")",
+                    "target": "setDesc(\"当文件夹带有备注时，在文件资源管理器中将其文件夹名称加粗\")"
+                },
+                {
+                    "source": "setName(\"将文件夹名称写成草书体\")",
+                    "target": "setName(\"将文件夹名称写成草书体\")"
+                },
+                {
+                    "source": "setDesc(\"当文件夹带有备注时，在文件资源管理器中将其文件夹名称显示为草书体\")",
+                    "target": "setDesc(\"当文件夹带有备注时，在文件资源管理器中将其文件夹名称显示为草书体\")"
+                },
+                {
+                    "source": "setName(\"通过路径打开文件夹笔记\")",
+                    "target": "setName(\"通过路径打开文件夹笔记\")"
+                },
+                {
+                    "source": "setDesc(\"当点击路径中的文件夹名称时，如果该文件夹有笔记，则打开该笔记\")",
+                    "target": "setDesc(\"当点击路径中的文件夹名称时，如果该文件夹有笔记，则打开该笔记\")"
+                },
+                {
+                    "source": "setName(\"通过路径打开文件夹笔记时打开侧边栏（仅限移动设备）\")",
+                    "target": "setName(\"通过路径打开文件夹笔记时打开侧边栏（仅限移动设备）\")"
+                },
+                {
+                    "source": "setDesc(\"通过路径打开文件夹笔记时在移动设备上打开侧边栏\")",
+                    "target": "setDesc(\"通过路径打开文件夹笔记时在移动设备上打开侧边栏\")"
+                },
+                {
+                    "source": "setName(\"通过路径打开文件夹笔记时打开侧边栏（仅限桌面设备）\")",
+                    "target": "setName(\"通过路径打开文件夹笔记时打开侧边栏（仅限桌面设备）\")"
+                },
+                {
+                    "source": "setDesc(\"通过路径打开文件夹笔记时在桌面设备上打开侧边栏\")",
+                    "target": "setDesc(\"通过路径打开文件夹笔记时在桌面设备上打开侧边栏\")"
+                },
+                {
+                    "source": "setName(\"自动更新路径中的文件夹名称（仅限前置信息标题插件）\")",
+                    "target": "setName(\"自动更新路径中的文件夹名称（仅限前置信息标题插件）\")"
+                },
+                {
+                    "source": "setDesc(\"当启用了前置信息标题插件，且在前置信息中更改了文件夹笔记的标题时，自动更新路径中的文件夹名称。 这不会更改文件名，只会更改路径中显示的名称。\")",
+                    "target": "setDesc(\"当启用了前置信息标题插件，且在前置信息中更改了文件夹笔记的标题时，自动更新路径中的文件夹名称。 这不会更改文件名，只会更改路径中显示的名称。\")"
+                },
+                {
+                    "source": "setName(\"在路径中对文件夹加下划线\")",
+                    "target": "setName(\"在路径中对文件夹加下划线\")"
+                },
+                {
+                    "source": "setDesc(\"在笔记路径上方包含文件夹注释的文件夹上添加下划线\")",
+                    "target": "setDesc(\"在笔记路径上方包含文件夹注释的文件夹上添加下划线\")"
+                },
+                {
+                    "source": "setName(\"在路径中加粗文件夹名称\")",
+                    "target": "setName(\"在路径中加粗文件夹名称\")"
+                },
+                {
+                    "source": "setDesc(\"在笔记路径上方包含文件夹注释的文件夹名称加粗\")",
+                    "target": "setDesc(\"在笔记路径上方包含文件夹注释的文件夹名称加粗\")"
+                },
+                {
+                    "source": "setName(\"在路径中使用斜体显示文件夹名称\")",
+                    "target": "setName(\"在路径中使用斜体显示文件夹名称\")"
+                },
+                {
+                    "source": "setDesc(\"在笔记路径上方包含文件夹注释的文件夹名称使用斜体显示\")",
+                    "target": "setDesc(\"在笔记路径上方包含文件夹注释的文件夹名称使用斜体显示\")"
+                },
+                {
+                    "source": "Notice(\"Folder overview: Couldn't find the folder\")",
+                    "target": "Notice(\"Folder overview: Couldn't find the folder\")"
+                },
+                {
+                    "source": "setTitle(\"Edit folder overview\")",
+                    "target": "setTitle(\"Edit folder overview\")"
+                },
+                {
+                    "source": "setName(\"Auto-update links without opening the overview\")",
+                    "target": "setName(\"Auto-update links without opening the overview\")"
+                },
+                {
+                    "source": "setDesc(\"If enabled, the links that appear in the graph view will be updated even when you don't have the overview open somewhere.\")",
+                    "target": "setDesc(\"If enabled, the links that appear in the graph view will be updated even when you don't have the overview open somewhere.\")"
+                },
+                {
+                    "source": "setName(\"自动同步\")",
+                    "target": "setName(\"自动同步\")"
+                },
+                {
+                    "source": "setDesc(\"选择概览是否应在您删除、创建或重命名文件/文件夹时自动更新\")",
+                    "target": "setDesc(\"选择概览是否应在您删除、创建或重命名文件/文件夹时自动更新\")"
+                },
+                {
+                    "source": "setName(\"允许拖拽\")",
+                    "target": "setName(\"允许拖拽\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否要在概览中允许拖拽\")",
+                    "target": "setDesc(\"选择是否要在概览中允许拖拽\")"
+                },
+                {
+                    "source": "setName(\"显示标题\")",
+                    "target": "setName(\"显示标题\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否显示文件夹概览上方的标题\")",
+                    "target": "setDesc(\"选择是否显示文件夹概览上方的标题\")"
+                },
+                {
+                    "source": "setName(\"标题大小\")",
+                    "target": "setName(\"标题大小\")"
+                },
+                {
+                    "source": "setDesc(\"数字越大，标题显示的字号就越小。\")",
+                    "target": "setDesc(\"数字越大，标题显示的字号就越小。\")"
+                },
+                {
+                    "source": "setName(\"Folder path for the overview\")",
+                    "target": "setName(\"Folder path for the overview\")"
+                },
+                {
+                    "source": "appendText(\"The overview will show the subfolders and files of the folder you choose here. \")",
+                    "target": "appendText(\"The overview will show the subfolders and files of the folder you choose here. \")"
+                },
+                {
+                    "source": "setName(\"使用实际链接\")",
+                    "target": "setName(\"使用实际链接\")"
+                },
+                {
+                    "source": "setDesc(\"选择概览中的链接是否应在图表视图中显示。这需要在实际概览下方添加第二个列表，且默认情况下是隐藏的。\")",
+                    "target": "setDesc(\"选择概览中的链接是否应在图表视图中显示。这需要在实际概览下方添加第二个列表，且默认情况下是隐藏的。\")"
+                },
+                {
+                    "source": "setName(\"使用维基链接\")",
+                    "target": "setName(\"使用维基链接\")"
+                },
+                {
+                    "source": "setDesc(\"选择链接列表中的链接是否应采用维基链接格式或Markdown链接格式（例如，[[链接]] vs [链接](url)）。\")",
+                    "target": "setDesc(\"选择链接列表中的链接是否应采用维基链接格式或Markdown链接格式（例如，[[链接]] vs [链接](url)）。\")"
+                },
+                {
+                    "source": "setName(\"隐藏文件夹概览\")",
+                    "target": "setName(\"隐藏文件夹概览\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否隐藏文件夹概览，仅显示链接列表\")",
+                    "target": "setDesc(\"选择是否隐藏文件夹概览，仅显示链接列表\")"
+                },
+                {
+                    "source": "setName(\"隐藏链接列表\")",
+                    "target": "setName(\"隐藏链接列表\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否仅显示文件夹概览下的链接列表\")",
+                    "target": "setDesc(\"选择是否仅显示文件夹概览下的链接列表\")"
+                },
+                {
+                    "source": "setName(\"概述样式\")",
+                    "target": "setName(\"概述样式\")"
+                },
+                {
+                    "source": "setDesc(\"选择概览样式（网格样式即将推出）\")",
+                    "target": "setDesc(\"选择概览样式（网格样式即将推出）\")"
+                },
+                {
+                    "source": "setName(\"Include types\")",
+                    "target": "setName(\"Include types\")"
+                },
+                {
+                    "source": "setName(\"禁用文件标签\")",
+                    "target": "setName(\"禁用文件标签\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否在文件名后显示文件标签\")",
+                    "target": "setDesc(\"选择是否在文件名后显示文件标签\")"
+                },
+                {
+                    "source": "setName(\"显示文件夹备注\")",
+                    "target": "setName(\"显示文件夹备注\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否在概览中显示文件夹备注（即备注本身，而非文件夹名称）\")",
+                    "target": "setDesc(\"选择是否在概览中显示文件夹备注（即备注本身，而非文件夹名称）\")"
+                },
+                {
+                    "source": "setName(\"文件深度\")",
+                    "target": "setName(\"文件深度\")"
+                },
+                {
+                    "source": "setDesc(\"文件和文件夹 = +1 深度\")",
+                    "target": "setDesc(\"文件和文件夹 = +1 深度\")"
+                },
+                {
+                    "source": "setName(\"排序文件\")",
+                    "target": "setName(\"排序文件\")"
+                },
+                {
+                    "source": "setDesc(\"选择文件的排序方式\")",
+                    "target": "setDesc(\"选择文件的排序方式\")"
+                },
+                {
+                    "source": "setName(\"显示空文件夹名称\")",
+                    "target": "setName(\"显示空文件夹名称\")"
+                },
+                {
+                    "source": "setDesc(\"在文件夹概览中显示看起来没有文件/文件夹的文件夹名称。这主要发生在您将文件深度设置为 1 时。\")",
+                    "target": "setDesc(\"在文件夹概览中显示看起来没有文件/文件夹的文件夹名称。这主要发生在您将文件深度设置为 1 时。\")"
+                },
+                {
+                    "source": "setName(\"仅显示位于文件夹概览第一级且为空的文件夹\")",
+                    "target": "setName(\"仅显示位于文件夹概览第一级且为空的文件夹\")"
+                },
+                {
+                    "source": "setName(\"禁用文件夹备注的折叠图标\")",
+                    "target": "setName(\"禁用文件夹备注的折叠图标\")"
+                },
+                {
+                    "source": "setDesc(\"Remove the collapse icon next to the folder name for folder notes when they only contain the folder note itself\")",
+                    "target": "setDesc(\"Remove the collapse icon next to the folder name for folder notes when they only contain the folder note itself\")"
+                },
+                {
+                    "source": "setName(\"存储折叠条件\")",
+                    "target": "setName(\"存储折叠条件\")"
+                },
+                {
+                    "source": "setDesc(\"选择是否在重启 Obsidian 前存储折叠条件\")",
+                    "target": "setDesc(\"选择是否在重启 Obsidian 前存储折叠条件\")"
+                },
+                {
+                    "source": "setName(\"默认折叠树中的所有文件夹\")",
+                    "target": "setName(\"默认折叠树中的所有文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"默认情况下，折叠文件资源管理器中的每个文件夹\")",
+                    "target": "setDesc(\"默认情况下，折叠文件资源管理器中的每个文件夹\")"
+                },
+                {
+                    "source": "setName(\"前言标题插件集成\")",
+                    "target": "setName(\"前言标题插件集成\")"
+                },
+                {
+                    "source": "setDesc(\"请将文件夹/文件名替换为“Front Matter Title”插件中的标题。这需要先安装并启用该插件。\")",
+                    "target": "setDesc(\"请将文件夹/文件名替换为“Front Matter Title”插件中的标题。这需要先安装并启用该插件。\")"
+                },
+                {
+                    "source": "setName(\"在不打开概览页的情况下自动更新链接\")",
+                    "target": "setName(\"在不打开概览页的情况下自动更新链接\")"
+                },
+                {
+                    "source": "setDesc(\"如果启用此功能，即使您当前未打开概览页面，图表视图中显示的链接也会自动更新。\")",
+                    "target": "setDesc(\"如果启用此功能，即使您当前未打开概览页面，图表视图中显示的链接也会自动更新。\")"
+                },
+                {
+                    "source": "setName(\"添加白名单文件夹\")",
+                    "target": "setName(\"添加白名单文件夹\")"
+                },
+                {
+                    "source": "setTooltip(\"Add whitelisted folder\")",
+                    "target": "setTooltip(\"Add whitelisted folder\")"
+                },
+                {
+                    "source": "setName(\"管理排除的文件夹\")",
+                    "target": "setName(\"管理排除的文件夹\")"
+                },
+                {
+                    "source": "appendText(\"正则表达式和通配符仅适用于文件夹名称，不适用于路径。\")",
+                    "target": "appendText(\"正则表达式和通配符仅适用于文件夹名称，不适用于路径。\")"
+                },
+                {
+                    "source": "appendText(\"如果要切换到文件夹路径，请先删除模式。\")",
+                    "target": "appendText(\"如果要切换到文件夹路径，请先删除模式。\")"
+                },
+                {
+                    "source": "setName(\"白名单文件夹\")",
+                    "target": "setName(\"白名单文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"覆盖被排除文件夹/模式的文件夹\")",
+                    "target": "setDesc(\"覆盖被排除文件夹/模式的文件夹\")"
+                },
+                {
+                    "source": "setName(\"排除文件夹的默认设置\")",
+                    "target": "setName(\"排除文件夹的默认设置\")"
+                },
+                {
+                    "source": "setName(\"排除模式的默认设置\")",
+                    "target": "setName(\"排除模式的默认设置\")"
+                },
+                {
+                    "source": "setName(\"添加排除文件夹\")",
+                    "target": "setName(\"添加排除文件夹\")"
+                },
+                {
+                    "source": "setTooltip(\"Add excluded folder\")",
+                    "target": "setTooltip(\"Add excluded folder\")"
+                },
+                {
+                    "source": "Notice(\"Starting to update folder notes...\")",
+                    "target": "Notice(\"Starting to update folder notes...\")"
+                },
+                {
+                    "source": "Notice(\"Finished updating folder notes\")",
+                    "target": "Notice(\"Finished updating folder notes\")"
+                },
+                {
+                    "source": "Notice(\"Starting to switch storage location...\")",
+                    "target": "Notice(\"Starting to switch storage location...\")"
+                },
+                {
+                    "source": "Notice(\"Finished switching storage location\")",
+                    "target": "Notice(\"Finished switching storage location\")"
+                },
+                {
+                    "source": "Notice(\"Folder already exists\")",
+                    "target": "Notice(\"Folder already exists\")"
+                },
+                {
+                    "source": "Notice('File name cannot contain any of the following characters: * \" \\\\ / < > : | ?')",
+                    "target": "Notice('File name cannot contain any of the following characters: * \" \\\\ / < > : | ?')"
+                },
+                {
+                    "source": "Notice(\"File name cannot end with a dot\")",
+                    "target": "Notice(\"File name cannot end with a dot\")"
+                },
+                {
+                    "source": "Notice(\"Folder note already exists\")",
+                    "target": "Notice(\"Folder note already exists\")"
+                },
+                {
+                    "source": "Notice(\"File already exists\")",
+                    "target": "Notice(\"File already exists\")"
+                },
+                {
+                    "source": "setTitle(\"Create folder note\")",
+                    "target": "setTitle(\"Create folder note\")"
+                },
+                {
+                    "source": "setTitle(`Turn into folder note for ${folder == null ? void 0 : folder.name}`)",
+                    "target": "setTitle(`Turn into folder note for ${folder == null ? void 0 : folder.name}`)"
+                },
+                {
+                    "source": "setTitle(\"Remove folder from excluded folders\")",
+                    "target": "setTitle(\"Remove folder from excluded folders\")"
+                },
+                {
+                    "source": "Notice(\"Successfully removed folder from excluded folders\")",
+                    "target": "Notice(\"Successfully removed folder from excluded folders\")"
+                },
+                {
+                    "source": "setTitle(\"Remove folder from detached folders\")",
+                    "target": "setTitle(\"Remove folder from detached folders\")"
+                },
+                {
+                    "source": "setTitle(\"Exclude folder from folder notes\")",
+                    "target": "setTitle(\"Exclude folder from folder notes\")"
+                },
+                {
+                    "source": "Notice(\"Successfully excluded folder from folder notes\")",
+                    "target": "Notice(\"Successfully excluded folder from folder notes\")"
+                },
+                {
+                    "source": "setTitle(\"Delete folder note\")",
+                    "target": "setTitle(\"Delete folder note\")"
+                },
+                {
+                    "source": "setTitle(\"Open folder note\")",
+                    "target": "setTitle(\"Open folder note\")"
+                },
+                {
+                    "source": "setTitle(\"Detach folder note\")",
+                    "target": "setTitle(\"Detach folder note\")"
+                },
+                {
+                    "source": "setTitle(\"Copy Obsidian URL\")",
+                    "target": "setTitle(\"Copy Obsidian URL\")"
+                },
+                {
+                    "source": "setTitle(\"Hide folder note in explorer\")",
+                    "target": "setTitle(\"Hide folder note in explorer\")"
+                },
+                {
+                    "source": "setTitle(\"Show folder note in explorer\")",
+                    "target": "setTitle(\"Show folder note in explorer\")"
+                },
+                {
+                    "source": "setTitle(\"Create markdown folder note\")",
+                    "target": "setTitle(\"Create markdown folder note\")"
+                },
+                {
+                    "source": "setTitle(`Create ${fileType} folder note`)",
+                    "target": "setTitle(`Create ${fileType} folder note`)"
+                },
+                {
+                    "source": "setTitle(\"Folder Note Commands\")",
+                    "target": "setTitle(\"Folder Note Commands\")"
+                },
+                {
+                    "source": "Notice(\"A folder with the same name already exists\")",
+                    "target": "Notice(\"A folder with the same name already exists\")"
+                },
+                {
+                    "source": "setTitle(\"Insert folder overview\")",
+                    "target": "setTitle(\"Insert folder overview\")"
+                },
+                {
+                    "source": "Notice(\"Indexing files for folder overview plugin...\")",
+                    "target": "Notice(\"Indexing files for folder overview plugin...\")"
+                },
+                {
+                    "source": "Notice(\"Indexed files for folder overview plugin.\")",
+                    "target": "Notice(\"Indexed files for folder overview plugin.\")"
+                },
+                {
+                    "source": "log(\"loading Folder Overview plugin\")",
+                    "target": "log(\"loading Folder Overview plugin\")"
+                },
+                {
+                    "source": "Notice(\"Error creating folder overview (folder notes plugin) - check console for more details\")",
+                    "target": "Notice(\"Error creating folder overview (folder notes plugin) - check console for more details\")"
+                },
+                {
+                    "source": "log(\"Unloading Folder Overview plugin\")",
+                    "target": "log(\"Unloading Folder Overview plugin\")"
+                },
+                {
+                    "source": "setName(\"选择概览\")",
+                    "target": "setName(\"选择概览\")"
+                },
+                {
+                    "source": "log(\"loading folder notes plugin\")",
+                    "target": "log(\"loading folder notes plugin\")"
+                },
+                {
+                    "source": "text: \"A folder note for this folder already exists\"",
+                    "target": "text: \"A folder note for this folder already exists\""
+                },
+                {
+                    "source": "text: \"Are you sure you want to turn the note into a folder note and rename the existing folder note?\"",
+                    "target": "text: \"Are you sure you want to turn the note into a folder note and rename the existing folder note?\""
+                },
+                {
+                    "source": "text: \"Rename and don't ask again\"",
+                    "target": "text: \"Rename and don't ask again\""
+                },
+                {
+                    "source": "text: \"Don't ask again\"",
+                    "target": "text: \"Don't ask again\""
+                },
+                {
+                    "source": "text: \"Rename\"",
+                    "target": "text: \"Rename\""
+                },
+                {
+                    "source": "text: \"Cancel\"",
+                    "target": "text: \"Cancel\""
+                },
+                {
+                    "source": "text: \"Delete folder note\"",
+                    "target": "text: \"Delete folder note\""
+                },
+                {
+                    "source": "text: `Are you sure you want to delete the folder note '${this.file.name}' ?`",
+                    "target": "text: `Are you sure you want to delete the folder note '${this.file.name}' ?`"
+                },
+                {
+                    "source": "text: \"It will be moved to your system trash.\"",
+                    "target": "text: \"It will be moved to your system trash.\""
+                },
+                {
+                    "source": "text: 'It will be moved to your Obsidian trash, which is located in the \".trash\" hidden folder in your vault.'",
+                    "target": "text: 'It will be moved to your Obsidian trash, which is located in the \".trash\" hidden folder in your vault.'"
+                },
+                {
+                    "source": "text: \"It will be permanently deleted.\"",
+                    "target": "text: \"It will be permanently deleted.\""
+                },
+                {
+                    "source": "text: \"Delete and don't ask again\"",
+                    "target": "text: \"Delete and don't ask again\""
+                },
+                {
+                    "source": "text: \"Delete\"",
+                    "target": "text: \"Delete\""
+                },
+                {
+                    "source": "name: \"applyStyles\"",
+                    "target": "name: \"applyStyles\""
+                },
+                {
+                    "source": "name: \"arrow\"",
+                    "target": "name: \"arrow\""
+                },
+                {
+                    "source": "name: \"computeStyles\"",
+                    "target": "name: \"computeStyles\""
+                },
+                {
+                    "source": "name: \"eventListeners\"",
+                    "target": "name: \"eventListeners\""
+                },
+                {
+                    "source": "name: \"flip\"",
+                    "target": "name: \"flip\""
+                },
+                {
+                    "source": "text: \"reference\"",
+                    "target": "text: \"reference\""
+                },
+                {
+                    "source": "name: \"hide\"",
+                    "target": "name: \"hide\""
+                },
+                {
+                    "source": "name: \"offset\"",
+                    "target": "name: \"offset\""
+                },
+                {
+                    "source": "name: \"popperOffsets\"",
+                    "target": "name: \"popperOffsets\""
+                },
+                {
+                    "source": "name: \"preventOverflow\"",
+                    "target": "name: \"preventOverflow\""
+                },
+                {
+                    "source": "name: \"sameWidth\"",
+                    "target": "name: \"sameWidth\""
+                },
+                {
+                    "source": "text: \"Excluded folder settings\"",
+                    "target": "text: \"Excluded folder settings\""
+                },
+                {
+                    "source": "text: \"Pattern settings\"",
+                    "target": "text: \"Pattern settings\""
+                },
+                {
+                    "source": "text: \"Whitelisted folder settings\"",
+                    "target": "text: \"Whitelisted folder settings\""
+                },
+                {
+                    "source": "text: \"Whitelisted pattern settings\"",
+                    "target": "text: \"Whitelisted pattern settings\""
+                },
+                {
+                    "source": "innerText = \"markdown\"",
+                    "target": "innerText = \"markdown\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "text: \"Extension name\"",
+                    "target": "text: \"Extension name\""
+                },
+                {
+                    "source": "name = \"md\"",
+                    "target": "name = \"md\""
+                },
+                {
+                    "source": "name: \"manager:update\"",
+                    "target": "name: \"manager:update\""
+                },
+                {
+                    "source": "text: \"Create folder note for every folder\"",
+                    "target": "text: \"Create folder note for every folder\""
+                },
+                {
+                    "source": "text: \"Make sure to backup your vault before using this feature.\"",
+                    "target": "text: \"Make sure to backup your vault before using this feature.\""
+                },
+                {
+                    "source": "text: \"This feature will create a folder note for every folder in your vault.\"",
+                    "target": "text: \"This feature will create a folder note for every folder in your vault.\""
+                },
+                {
+                    "source": "text: \"Every folder that already has a folder note will be ignored.\"",
+                    "target": "text: \"Every folder that already has a folder note will be ignored.\""
+                },
+                {
+                    "source": "text: \"Every excluded folder will be ignored.\"",
+                    "target": "text: \"Every excluded folder will be ignored.\""
+                },
+                {
+                    "source": "name: \"You need to set the Templates folder in the Templater settings first.\"",
+                    "target": "name: \"You need to set the Templates folder in the Templater settings first.\""
+                },
+                {
+                    "source": "text: \"Keyboard Shortcuts\"",
+                    "target": "text: \"Keyboard Shortcuts\""
+                },
+                {
+                    "source": "text: \"Folder note behavior\"",
+                    "target": "text: \"Folder note behavior\""
+                },
+                {
+                    "source": "text: \"Automation settings\"",
+                    "target": "text: \"Automation settings\""
+                },
+                {
+                    "source": "text: \"Integration & Compatibility\"",
+                    "target": "text: \"Integration & Compatibility\""
+                },
+                {
+                    "source": "textContent = \"front matter title plugin\"",
+                    "target": "textContent = \"front matter title plugin\""
+                },
+                {
+                    "source": "text: \"Session & Persistence\"",
+                    "target": "text: \"Session & Persistence\""
+                },
+                {
+                    "source": "text: \"Style settings\"",
+                    "target": "text: \"Style settings\""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "text: \"Folder overview settings\"",
+                    "target": "text: \"Folder overview settings\""
+                },
+                {
+                    "source": "text: \"Default folder overview settings\"",
+                    "target": "text: \"Default folder overview settings\""
+                },
+                {
+                    "source": "textContent = \"Folder title\"",
+                    "target": "textContent = \"Folder title\""
+                },
+                {
+                    "source": "text: \"Save\"",
+                    "target": "text: \"Save\""
+                },
+                {
+                    "source": "innerText = \"Edit overview\"",
+                    "target": "innerText = \"Edit overview\""
+                },
+                {
+                    "source": "text: \"Global settings\"",
+                    "target": "text: \"Global settings\""
+                },
+                {
+                    "source": "text: \"Overviews default settings\"",
+                    "target": "text: \"Overviews default settings\""
+                },
+                {
+                    "source": "text: \"Edit the default settings for new folder overviews, \"",
+                    "target": "text: \"Edit the default settings for new folder overviews, \""
+                },
+                {
+                    "source": "text: \"this won't apply to already existing overviews.\"",
+                    "target": "text: \"this won't apply to already existing overviews.\""
+                },
+                {
+                    "source": "text: \"Find more information about the title in the documentation. There is also a list of variables you can use\"",
+                    "target": "text: \"Find more information about the title in the documentation. There is also a list of variables you can use\""
+                },
+                {
+                    "source": "text: \"Find more information about this setting in the documentation.\"",
+                    "target": "text: \"Find more information about this setting in the documentation.\""
+                },
+                {
+                    "source": "text: \"Manage whitelisted folders\"",
+                    "target": "text: \"Manage whitelisted folders\""
+                },
+                {
+                    "source": "name: \"General\"",
+                    "target": "name: \"General\""
+                },
+                {
+                    "source": "name: \"Folder overview\"",
+                    "target": "name: \"Folder overview\""
+                },
+                {
+                    "source": "name: \"Exclude folders\"",
+                    "target": "name: \"Exclude folders\""
+                },
+                {
+                    "source": "name: \"File explorer\"",
+                    "target": "name: \"File explorer\""
+                },
+                {
+                    "source": "name: \"Path\"",
+                    "target": "name: \"Path\""
+                },
+                {
+                    "source": "name: \"Use this file as the folder note for its parent folder\"",
+                    "target": "name: \"Use this file as the folder note for its parent folder\""
+                },
+                {
+                    "source": "name: \"Make a folder with this file as its folder note\"",
+                    "target": "name: \"Make a folder with this file as its folder note\""
+                },
+                {
+                    "source": "name: \"Create markdown folder note for this folder\"",
+                    "target": "name: \"Create markdown folder note for this folder\""
+                },
+                {
+                    "source": "name: `Create ${fileType} folder note for this folder`",
+                    "target": "name: `Create ${fileType} folder note for this folder`"
+                },
+                {
+                    "source": "name: `Create ${type} folder note for current active folder in file explorer`",
+                    "target": "name: `Create ${type} folder note for current active folder in file explorer`"
+                },
+                {
+                    "source": "name: \"Delete this folder's linked note\"",
+                    "target": "name: \"Delete this folder's linked note\""
+                },
+                {
+                    "source": "name: \"Delete folder note of current active folder in file explorer\"",
+                    "target": "name: \"Delete folder note of current active folder in file explorer\""
+                },
+                {
+                    "source": "name: \"Open this folder's linked note\"",
+                    "target": "name: \"Open this folder's linked note\""
+                },
+                {
+                    "source": "name: \"Open folder note of current active folder in file explorer\"",
+                    "target": "name: \"Open folder note of current active folder in file explorer\""
+                },
+                {
+                    "source": "name: \"Create folder note from selection\"",
+                    "target": "name: \"Create folder note from selection\""
+                },
+                {
+                    "source": "name: \"Edit folder overview\"",
+                    "target": "name: \"Edit folder overview\""
+                },
+                {
+                    "source": "name: \"Insert folder overview\"",
+                    "target": "name: \"Insert folder overview\""
+                },
+                {
+                    "source": "name = \"fn-folder-overview\"",
+                    "target": "name = \"fn-folder-overview\""
+                },
+                {
+                    "source": "text: \"Folder Overview settings\"",
+                    "target": "text: \"Folder Overview settings\""
+                }
+            ]
+        }
+    }
+}
