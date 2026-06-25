@@ -453,5 +453,18 @@
         "created_at": "2026-06-25T04:53:55.475Z",
         "updated_at": "2026-06-25T04:53:55.475Z",
         "type": "plugin"
+    },
+    {
+        "id": "f2nVOK7HFnHPoMdA7BwAWRQ9TscE5_yT",
+        "plugin": "folder-notes",
+        "language": "zh-cn",
+        "version": "1.8.19",
+        "supported_versions": "1.8.19",
+        "title": "Folder notes",
+        "description": "Folder notes Localization & Tweaks",
+        "hash": "2fa7aaca2fa7aaca2fa7aaca2fa7aaca",
+        "created_at": "2026-06-25T04:54:41.372Z",
+        "updated_at": "2026-06-25T04:54:41.372Z",
+        "type": "plugin"
     }
 ]
