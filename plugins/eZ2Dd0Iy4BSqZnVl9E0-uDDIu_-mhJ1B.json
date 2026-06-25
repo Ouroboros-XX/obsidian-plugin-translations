@@ -1,0 +1,378 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "datacore",
+        "version": "1.0.0",
+        "title": "Datacore",
+        "description": "Datacore Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "0.1.29",
+        "author": ""
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Couldn't convert value into a JSON string: ",
+                    "target": "无法将值转换为 JSON 字符串: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Datacore: Failed to import file: ",
+                    "target": "Datacore：导入文件失败: "
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "log",
+                    "source": "Datacore: dropping the datastore and reindexing all items.",
+                    "target": "Datacore：正在删除数据存储并重新索引所有项目。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, splits up views into pages of results which can be traversed via buttons at the top and bottom of the view. This substantially improves the performance of large views, and can help with visual clutter. Note that this setting can also be set on a per-view basis.",
+                    "target": "如果启用，视图将被拆分为可通过视图顶部和底部的按钮遍历的结果页面。这显著提升大型视图的性能，并有助于减少视觉杂乱。请注意，此设置也可以针对单个视图进行设置。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The number of entries to show per page, by default. This can be overriden on a per-view basis.",
+                    "target": "每页默认显示的条目数量。此设置可在单个视图上覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, table that are paged will scroll to the top of the table when the page changes. This can be overriden on a per-view basis.",
+                    "target": "如果启用，分页表格在页面切换时会滚动到表格顶部。此设置可在单个视图上覆盖。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "What to show for unset/empty properties.",
+                    "target": "未设置/空属性的显示内容。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default format that dates are rendered in. Uses luxon date formatting (https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu).",
+                    "target": "日期的默认渲染格式。使用 luxon 日期格式化（https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The default format that date-times are rendered in. Uses luxon date formatting (https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu).",
+                    "target": "日期时间的默认渲染格式。使用 luxon 日期格式化（https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "If enabled, inline fields will be parsed in all documents. Finding inline fields requires a full text scan through each document, which noticably slows down indexing for large vaults. Disabling this functionality will mean metadata will only come from tags, links, and Properties / frontmatter",
+                    "target": "如果启用，所有文档中的内联字段将被解析。解析内联字段需要对每个文档进行全文扫描，这会显著减慢大型库的索引速度。禁用此功能将使元数据仅来自标签、链接和属性/前置元数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "The number of importer threads to use for parsing metadata.",
+                    "target": "用于解析元数据的导入线程数。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "How much CPU time each importer thread should use, as a fraction (0.1 - 1.0).",
+                    "target": "每个导入线程应使用的 CPU 时间比例（0.1 - 1.0）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Maximum depth that objects will be rendered to (i.e., how many levels of subproperties will be rendered by default). This avoids infinite recursion due to self-referential objects and ensures that rendering objects is acceptably performant.",
+                    "target": "对象渲染的最大深度（即默认渲染的子属性层级数）。这可避免因自引用对象导致的无限递归，并确保对象渲染性能可接受。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Views",
+                    "target": "视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pagination",
+                    "target": "分页"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default page size",
+                    "target": "默认页面大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Scroll on page change",
+                    "target": "页面切换时滚动"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Formatting",
+                    "target": "格式化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Empty values",
+                    "target": "空值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default date format",
+                    "target": "默认日期格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Default date/time format",
+                    "target": "默认日期/时间格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Performance",
+                    "target": "性能"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Inline fields",
+                    "target": "内联字段"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Importer threads",
+                    "target": "导入线程"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Importer utilization",
+                    "target": "导入利用率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Maximum recursive render depth",
+                    "target": "最大递归渲染深度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Cache metadata about files and sections in the datacore index.",
+                    "target": "缓存关于文件和章节的元数据于 datacore 索引。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "< View is rendering >",
+                    "target": "< 正在渲染视图 >"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Datacore failed to render the code block.",
+                    "target": "Datacore 未能渲染代码块。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "The datacore script failed to execute.",
+                    "target": "datacore 脚本执行失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "localforage",
+                    "target": "localforage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Datacore Indexer",
+                    "target": "Datacore 索引器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Reindex entire vault",
+                    "target": "重新索引整个库"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "error(`Datacore failed to index ${n.data.path}: ${e}`)",
+                    "target": "error(`Datacore 未能索引 ${n.data.path}: ${e}`)"
+                },
+                {
+                    "source": "log(\"Datacore: dropping the datastore and reindexing all items.\")",
+                    "target": "log(\"Datacore: 正在丢弃数据存储并重新索引所有项目。\")"
+                },
+                {
+                    "source": "setDesc(\n      \"If enabled, splits up views into pages of results which can be traversed via buttons at the top and bottom of the view. This substantially improves the performance of large views, and can help with visual clutter. Note that this setting can also be set on a per-view basis.\"\n    )",
+                    "target": "setDesc(\n      \"如果启用，此设置会将视图拆分为可通过视图顶部和底部按钮浏览的结果页面。这显著提升大型视图的性能，并有助于减少视觉混乱。请注意，此设置也可以针对单个视图进行设置。\"\n    )"
+                },
+                {
+                    "source": "setName(\"Default page size\")",
+                    "target": "setName(\"默认页面大小\")"
+                },
+                {
+                    "source": "setDesc(\"The number of entries to show per page, by default. This can be overriden on a per-view basis.\")",
+                    "target": "setDesc(\"默认情况下，每页显示的条目数。此设置可以在单个视图上覆盖。\")"
+                },
+                {
+                    "source": "setName(\"Scroll on page change\")",
+                    "target": "setName(\"页面更改时滚动\")"
+                },
+                {
+                    "source": "setDesc(\n      \"If enabled, table that are paged will scroll to the top of the table when the page changes. This can be overriden on a per-view basis.\"\n    )",
+                    "target": "setDesc(\n      \"如果启用，分页的表格在页面更改时会滚动到表格顶部。此设置可以在单个视图上覆盖。\"\n    )"
+                },
+                {
+                    "source": "setName(\"Empty values\")",
+                    "target": "setName(\"空值\")"
+                },
+                {
+                    "source": "setDesc(\"What to show for unset/empty properties.\")",
+                    "target": "setDesc(\"未设置/空属性时显示的内容。\")"
+                },
+                {
+                    "source": "setName(\"Default date format\")",
+                    "target": "setName(\"默认日期格式\")"
+                },
+                {
+                    "source": "setDesc(\n      \"The default format that dates are rendered in. Uses luxon date formatting (https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu).\"\n    )",
+                    "target": "setDesc(\n      \"日期渲染的默认格式。使用 luxon 日期格式化（https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu）。\"\n    )"
+                },
+                {
+                    "source": "setName(\"Default date/time format\")",
+                    "target": "setName(\"默认日期/时间格式\")"
+                },
+                {
+                    "source": "setDesc(\n      \"The default format that date-times are rendered in. Uses luxon date formatting (https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu).\"\n    )",
+                    "target": "setDesc(\n      \"日期时间渲染的默认格式。使用 luxon 日期格式化（https://github.com/moment/luxon/blob/master/docs/formatting.md#formatting-with-tokens-strings-for-cthulhu）。\"\n    )"
+                },
+                {
+                    "source": "setName(\"Inline fields\")",
+                    "target": "setName(\"内联字段\")"
+                },
+                {
+                    "source": "setName(\"Importer threads\")",
+                    "target": "setName(\"导入线程数\")"
+                },
+                {
+                    "source": "setDesc(\"The number of importer threads to use for parsing metadata.\")",
+                    "target": "setDesc(\"用于解析元数据的导入线程数量。\")"
+                },
+                {
+                    "source": "setName(\"Importer utilization\")",
+                    "target": "setName(\"导入器利用率\")"
+                },
+                {
+                    "source": "setDesc(\"How much CPU time each importer thread should use, as a fraction (0.1 - 1.0).\")",
+                    "target": "setDesc(\"每个导入线程应使用的 CPU 时间比例（0.1 - 1.0）。\")"
+                },
+                {
+                    "source": "setName(\"Maximum recursive render depth\")",
+                    "target": "setName(\"最大递归渲染深度\")"
+                },
+                {
+                    "source": "setDesc(\n      \"Maximum depth that objects will be rendered to (i.e., how many levels of subproperties will be rendered by default). This avoids infinite recursion due to self-referential objects and ensures that rendering objects is acceptably performant.\"\n    )",
+                    "target": "setDesc(\n      \"对象渲染的最大深度（即默认情况下将渲染多少层子属性）。这可避免因自引用对象导致的无限递归，并确保对象渲染具有可接受的性能。\"\n    )"
+                },
+                {
+                    "source": "description: \"\"",
+                    "target": "description: \"\""
+                },
+                {
+                    "source": "name: \"localforage\"",
+                    "target": "name: \"localforage\""
+                },
+                {
+                    "source": "textContent = \"\"",
+                    "target": "textContent = \"\""
+                },
+                {
+                    "source": "name: \"string\"",
+                    "target": "name: \"string\""
+                },
+                {
+                    "source": "name = \"Page\"",
+                    "target": "name = \"页面\""
+                },
+                {
+                    "source": "name = \"Section\"",
+                    "target": "name = \"章节\""
+                },
+                {
+                    "source": "name = \"Block\"",
+                    "target": "name = \"块\""
+                },
+                {
+                    "source": "name = \"List Block\"",
+                    "target": "name = \"列表块\""
+                },
+                {
+                    "source": "name: \"Codeblock\"",
+                    "target": "name: \"代码块\""
+                },
+                {
+                    "source": "name: \"Datablock\"",
+                    "target": "name: \"数据块\""
+                },
+                {
+                    "source": "name = \"List item\"",
+                    "target": "name = \"列表项\""
+                },
+                {
+                    "source": "name = \"Task\"",
+                    "target": "name = \"任务\""
+                },
+                {
+                    "source": "name: \"datacore/cache/\"",
+                    "target": "name: \"datacore/cache/\""
+                },
+                {
+                    "source": "description: \"Cache metadata about files and sections in the datacore index.\"",
+                    "target": "description: \"缓存 datacore 索引中关于文件和章节的元数据。\""
+                },
+                {
+                    "source": "name = \"File\"",
+                    "target": "name = \"文件\""
+                },
+                {
+                    "source": "name = \"Canvas\"",
+                    "target": "name = \"画布\""
+                },
+                {
+                    "source": "name = \"Text card\"",
+                    "target": "name = \"文本卡片\""
+                },
+                {
+                    "source": "name = \"File card\"",
+                    "target": "name = \"文件卡片\""
+                },
+                {
+                    "source": "name = \"Web card\"",
+                    "target": "name = \"网页卡片\""
+                },
+                {
+                    "source": "name: \"Reindex entire vault\"",
+                    "target": "name: \"重新索引整个保险库\""
+                }
+            ]
+        }
+    }
+}
