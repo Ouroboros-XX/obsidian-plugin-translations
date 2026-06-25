@@ -375,5 +375,18 @@
         "created_at": "2026-06-25T04:42:03.177Z",
         "updated_at": "2026-06-25T04:42:03.177Z",
         "type": "theme"
+    },
+    {
+        "id": "lKbtgrKxq7pz87455G1QB4pE-f2F9JjL",
+        "plugin": "Baseline",
+        "language": "zh-cn",
+        "version": "3.2.9",
+        "supported_versions": "3.2.9",
+        "title": "Baseline",
+        "description": "Baseline Localization & Tweaks",
+        "hash": "729d7285729d7285729d7285729d7285",
+        "created_at": "2026-06-25T04:42:11.580Z",
+        "updated_at": "2026-06-25T04:42:11.580Z",
+        "type": "theme"
     }
 ]
