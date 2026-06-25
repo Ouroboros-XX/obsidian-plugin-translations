@@ -349,5 +349,18 @@
         "created_at": "2026-06-24T17:08:08.104Z",
         "updated_at": "2026-06-24T17:08:08.104Z",
         "type": "plugin"
+    },
+    {
+        "id": "eZ2Dd0Iy4BSqZnVl9E0-uDDIu_-mhJ1B",
+        "plugin": "datacore",
+        "language": "zh-cn",
+        "version": "0.1.29",
+        "supported_versions": "0.1.29",
+        "title": "Datacore",
+        "description": "Datacore Localization & Tweaks",
+        "hash": "4008bf024008bf024008bf024008bf02",
+        "created_at": "2026-06-25T04:37:52.266Z",
+        "updated_at": "2026-06-25T04:37:52.266Z",
+        "type": "plugin"
     }
 ]
