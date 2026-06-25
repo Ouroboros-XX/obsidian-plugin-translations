@@ -1,0 +1,630 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "pixel-pets",
+        "version": "1.0.0",
+        "title": "Pixel Pets",
+        "description": "Pixel Pets Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "1.5.2",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "When enabled, pets treat the entire Obsidian window as their playground (using a transparent overlay).",
+                    "target": "启用后，宠物会将整个 Obsidian 窗口视为它们的游乐场（使用透明覆盖层）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Select a background for the pet view.",
+                    "target": "为宠物视图选择背景。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Toggle the background's animation ON or OFF.",
+                    "target": "打开或关闭背景动画。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Adjust the size of the pet.",
+                    "target": "调整宠物的大小。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your Gemini API key to use the plugin's chat feature (this is optional given the OpenAI key).",
+                    "target": "输入您的 Gemini API 密钥以使用插件的聊天功能（相较于 OpenAI 密钥，这是可选的）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter your OpenAI API key to use the plugin's chat feature (this is mandatory).",
+                    "target": "输入您的 OpenAI API 密钥以使用插件的聊天功能（此项为必填）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose which model to use for chat interactions.",
+                    "target": "选择用于聊天交互的模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Overlay mode",
+                    "target": "覆盖模式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Background",
+                    "target": "背景"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Animations",
+                    "target": "动画"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Pet size",
+                    "target": "宠物尺寸"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Chatbot API keys",
+                    "target": "聊天机器人 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Gemini API key",
+                    "target": "Gemini API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "OpenAI API key",
+                    "target": "OpenAI API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Active AI Model",
+                    "target": "活动 AI 模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning text from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的文本。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning data from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的数据。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning function calls from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的函数调用。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning executable code from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的可执行代码。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "there are multiple candidates in the response, returning code execution result from the first one.",
+                    "target": "响应中有多个候选项，返回第一个的代码执行结果。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "batches.createEmbeddings() is experimental and may change without notice.",
+                    "target": "batches.createEmbeddings() 为实验性功能，可能会在未通知的情况下更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: extraBody provided but current request body is a Blob. extraBody will be ignored as merging is not supported for Blob bodies.",
+                    "target": "includeExtraBodyToRequestInit：提供了 extraBody，但当前请求体是 Blob。由于不支持对 Blob 体进行合并，extraBody 将被忽略。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is valid JSON but not a non-array object. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit：原始请求体是有效的 JSON，但不是非数组对象。跳过对请求体应用 extraBody。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "includeExtraBodyToRequestInit: Original request body is not valid JSON. Skip applying extraBody to the request body.",
+                    "target": "includeExtraBodyToRequestInit：原始请求体不是有效的 JSON。跳过对请求体应用 extraBody。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Live music generation is experimental and may change in future versions.",
+                    "target": "实时音乐生成是实验性功能，可能会在未来版本中更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: Ephemeral token support is experimental and may change in future versions.",
+                    "target": "警告：临时令牌支持为实验性功能，可能会在未来版本中更改。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Warning: The SDK's ephemeral token support is in v1alpha only. Please use const ai = new GoogleGenAI({apiKey: token.name, httpOptions: { apiVersion: 'v1alpha' }}); before session connection.",
+                    "target": "警告：SDK 的临时令牌支持仅在 v1alpha 版本。请在会话连接前使用 const ai = new GoogleGenAI({apiKey: token.name, httpOptions: { apiVersion: 'v1alpha' }});"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Setting `LiveConnectConfig.generation_config` is deprecated, please set the fields on `LiveConnectConfig` directly. This will become an error in a future version (not before Q3 2025).",
+                    "target": "设置 `LiveConnectConfig.generation_config` 已弃用，请直接在 `LiveConnectConfig` 上设置字段。此行为将在未来版本中成为错误（最早在 2025 年第三季度之前不会出现）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Invalid maximumRemoteCalls value provided for automatic function calling. Disabled automatic function calling. Please provide a valid integer value greater than 0. maximumRemoteCalls provided:",
+                    "target": "为自动函数调用提供的 maximumRemoteCalls 值无效。已禁用自动函数调用。请提供大于 0 的有效整数值。提供的 maximumRemoteCalls 为："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to initialize chat model:",
+                    "target": "初始化聊天模型失败："
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault is already up to date!",
+                    "target": "保险库已是最新！"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not initialize AI model. Check API keys and model selection in settings.",
+                    "target": "无法初始化 AI 模型。请检查设置中的 API 密钥和模型选择。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please select a chat model in settings first.",
+                    "target": "请先在设置中选择聊天模型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Please set your API key(s) in settings first.",
+                    "target": "请先在设置中设置您的 API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Set your OpenAI API key first.",
+                    "target": "请先设置您的 OpenAI API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Vault indexed successfully.",
+                    "target": "保险库索引成功。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Failed to retrieve context from vault",
+                    "target": "从保险库检索上下文失败"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Set your Gemini API key first.",
+                    "target": "请先设置您的 Gemini API 密钥。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Model set to Gemini.",
+                    "target": "模型已设置为 Gemini。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Model set to OpenAI.",
+                    "target": "模型已设置为 OpenAI。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "No model selected.",
+                    "target": "未选择模型。"
+                },
+                {
+                    "type": "NewExpression",
+                    "name": "Notice",
+                    "source": "Could not initialize model. Check API keys.",
+                    "target": "无法初始化模型。请检查 API 密钥。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Black batman cat",
+                    "target": "黑蝙蝠猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Blue batman cat",
+                    "target": "蓝色蝙蝠侠猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Black cat",
+                    "target": "黑猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Brown cat",
+                    "target": "棕猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Christmas cat",
+                    "target": "圣诞猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Christmas cat v2",
+                    "target": "圣诞猫 v2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Christmas cat v3",
+                    "target": "圣诞猫 v3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Classic cat",
+                    "target": "经典猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Deer cat",
+                    "target": "鹿猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Demonic cat",
+                    "target": "恶魔猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Egyptian cat",
+                    "target": "埃及猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Ghost",
+                    "target": "幽灵"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Grey bunny",
+                    "target": "灰色兔子"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pirate cat",
+                    "target": "海盗猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pirate cat v2",
+                    "target": "海盗猫 v2"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Pirate cat v3",
+                    "target": "海盗猫 v3"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Siamese cat",
+                    "target": "暹罗猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tri-colored cat",
+                    "target": "三色猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Tiger cat",
+                    "target": "虎斑猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Vampire cat",
+                    "target": "吸血猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "White cat",
+                    "target": "白猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Witch cat",
+                    "target": "巫猫"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "None",
+                    "target": "无"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "idle",
+                    "target": "待机"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "jump",
+                    "target": "跳跃"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "run",
+                    "target": "跑步"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sit",
+                    "target": "坐下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "sleep",
+                    "target": "睡觉"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "die",
+                    "target": "死亡"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "fly",
+                    "target": "飞行"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "liking",
+                    "target": "喜好"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "liedown",
+                    "target": "躺下"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "like",
+                    "target": "喜欢"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Choose pet view background",
+                    "target": "选择宠物视图背景"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add a pet",
+                    "target": "添加宠物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Add a ball",
+                    "target": "添加球"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Cat toy mouse toggle",
+                    "target": "猫玩具老鼠切换"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove all pets",
+                    "target": "移除所有宠物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Remove a specific pet",
+                    "target": "移除特定宠物"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Chat with your pets",
+                    "target": "与宠物聊天"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Index Vault for RAG",
+                    "target": "RAG 索引库"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "setName(\"Overlay mode\")",
+                    "target": "setName(\"覆盖模式\")"
+                },
+                {
+                    "source": "setDesc(\"When enabled, pets treat the entire Obsidian window as their playground (using a transparent overlay).\")",
+                    "target": "setDesc(\"启用后，宠物会将整个 Obsidian 窗口视为它们的游乐场（使用透明覆盖层）。\")"
+                },
+                {
+                    "source": "setDesc(\"Select a background for the pet view.\")",
+                    "target": "setDesc(\"为宠物视图选择背景。\")"
+                },
+                {
+                    "source": "setDesc(\"Toggle the background's animation ON or OFF.\")",
+                    "target": "setDesc(\"切换背景动画的开启或关闭。\")"
+                },
+                {
+                    "source": "setName(\"Pet size\")",
+                    "target": "setName(\"宠物大小\")"
+                },
+                {
+                    "source": "setDesc(\"Adjust the size of the pet.\")",
+                    "target": "setDesc(\"调整宠物的大小。\")"
+                },
+                {
+                    "source": "setName(\"Chatbot API keys\")",
+                    "target": "setName(\"聊天机器人 API 密钥\")"
+                },
+                {
+                    "source": "setName(\"Gemini API key\")",
+                    "target": "setName(\"Gemini API 密钥\")"
+                },
+                {
+                    "source": "setDesc(\"Enter your Gemini API key to use the plugin's chat feature (this is optional given the OpenAI key).\")",
+                    "target": "setDesc(\"输入您的 Gemini API 密钥以使用插件的聊天功能（鉴于已有 OpenAI 密钥，此项为可选）。\")"
+                },
+                {
+                    "source": "setDesc(\"Enter your OpenAI API key to use the plugin's chat feature (this is mandatory).\")",
+                    "target": "setDesc(\"输入您的 OpenAI API 密钥以使用插件的聊天功能（此为必填）。\")"
+                },
+                {
+                    "source": "setName(\"Active AI Model\")",
+                    "target": "setName(\"活动 AI 模型\")"
+                },
+                {
+                    "source": "setDesc(\"Choose which model to use for chat interactions.\")",
+                    "target": "setDesc(\"选择用于聊天交互的模型。\")"
+                },
+                {
+                    "source": "Notice(\"Could not initialize AI model. Check API keys and model selection in settings.\")",
+                    "target": "Notice(\"无法初始化 AI 模型。请检查设置中的 API 密钥和模型选择。\")"
+                },
+                {
+                    "source": "Notice(\"Please select a chat model in settings first.\")",
+                    "target": "Notice(\"请先在设置中选择聊天模型。\")"
+                },
+                {
+                    "source": "Notice(\"Please set your API key(s) in settings first.\")",
+                    "target": "Notice(\"请先在设置中设置您的 API 密钥。\")"
+                },
+                {
+                    "source": "Notice(\"Set your OpenAI API key first.\")",
+                    "target": "Notice(\"请先设置您的 OpenAI API 密钥。\")"
+                },
+                {
+                    "source": "Notice(\"Vault indexed successfully.\")",
+                    "target": "Notice(\"金库索引成功。\")"
+                },
+                {
+                    "source": "Notice(\"Model set to Gemini.\")",
+                    "target": "Notice(\"模型已设置为 Gemini。\")"
+                },
+                {
+                    "source": "Notice(\"Model set to OpenAI.\")",
+                    "target": "Notice(\"模型已设置为 OpenAI。\")"
+                },
+                {
+                    "source": "Notice(\"No model selected.\")",
+                    "target": "Notice(\"未选择模型。\")"
+                },
+                {
+                    "source": "name:\"Choose pet view background\"",
+                    "target": "name:\"选择宠物视图背景\""
+                },
+                {
+                    "source": "name:\"Add a pet\"",
+                    "target": "name:\"添加宠物\""
+                },
+                {
+                    "source": "name:\"Add a ball\"",
+                    "target": "name:\"添加球\""
+                },
+                {
+                    "source": "name:\"Cat toy mouse toggle\"",
+                    "target": "name:\"猫玩具老鼠切换\""
+                },
+                {
+                    "source": "name:\"Remove all pets\"",
+                    "target": "name:\"移除所有宠物\""
+                },
+                {
+                    "source": "name:\"Remove a specific pet\"",
+                    "target": "name:\"移除特定宠物\""
+                },
+                {
+                    "source": "name:\"Chat with your pets\"",
+                    "target": "name:\"与你的宠物聊天\""
+                },
+                {
+                    "source": "name:\"Index Vault for RAG\"",
+                    "target": "name:\"用于 RAG 的索引库\""
+                }
+            ]
+        }
+    }
+}
