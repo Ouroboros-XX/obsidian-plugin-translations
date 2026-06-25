@@ -1,0 +1,2004 @@
+{
+    "schemaVersion": 1,
+    "metadata": {
+        "plugin": "open-connections",
+        "version": "1.0.0",
+        "title": "Open Connections",
+        "description": "Open Connections Localization & Tweaks",
+        "language": "zh-cn",
+        "supportedVersions": "3.9.46",
+        "author": "ouroboros"
+    },
+    "dict": {
+        "main.js": {
+            "ast": [
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Manual entry...",
+                    "target": "手动输入…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "addOption",
+                    "source": "Same as indexing",
+                    "target": "与索引相同"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "button",
+                    "target": "button"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "input",
+                    "target": "input"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "ul",
+                    "target": "ul"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "li",
+                    "target": "li"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "span",
+                    "target": "span"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "br",
+                    "target": "br"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "details",
+                    "target": "details"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "createEl",
+                    "source": "summary",
+                    "target": "summary"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[Init] Failed to initialize embed model",
+                    "target": "[Init] 初始化嵌入模型失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to enqueue debounced re-import",
+                    "target": "将防抖重新导入加入队列失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to re-enqueue re-import",
+                    "target": "重新加入重新导入队列失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Re-import failed",
+                    "target": "重新导入失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to initialize collections:",
+                    "target": "初始化集合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SC][Init]   [collections] Failed to load collections:",
+                    "target": "[SC][Init]   [collections] 加载集合失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Background embedding init failed:",
+                    "target": "后台嵌入初始化失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SC][Init] ✗ Phase 2 failed:",
+                    "target": "[SC][Init] ✗ 第2阶段失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to copy smart context",
+                    "target": "复制智能上下文失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "Failed to find random connection",
+                    "target": "未找到随机连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "error",
+                    "source": "[SC] Codeblock: failed to load connections:",
+                    "target": "[SC] Codeblock: 加载连接失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[SC][Init] Model switch complete",
+                    "target": "[SC][Init] 模型切换完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "Re-import completed",
+                    "target": "重新导入完成"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "info",
+                    "source": "[MCP] Server stopped",
+                    "target": "[MCP] 服务器已停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Refresh",
+                    "target": "刷新"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Retry",
+                    "target": "重试"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Try again",
+                    "target": "再试一次"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Cancel",
+                    "target": "取消"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Confirm",
+                    "target": "确认"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Add folder",
+                    "target": "添加文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Validate",
+                    "target": "验证"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Apply",
+                    "target": "应用"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Stop",
+                    "target": "停止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Unmute all",
+                    "target": "取消所有静音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Unmute",
+                    "target": "取消静音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setButtonText",
+                    "source": "Re-embed stale",
+                    "target": "重新嵌入过期的"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Choose vault folders to exclude. Confirming will remove existing embeddings for that folder.",
+                    "target": "选择要排除的保险库文件夹。确认将删除该文件夹的现有嵌入。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Excluded",
+                    "target": "已排除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Skip files shorter than this character count",
+                    "target": "跳过字符数少于此阈值的文件"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated file name patterns to exclude",
+                    "target": "用逗号分隔的文件名模式以排除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Comma-separated heading patterns to skip",
+                    "target": "逗号分隔的标题模式，需跳过"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Embed individual sections for more granular connections",
+                    "target": "嵌入单独章节，以实现更细粒度的关联"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Skip blocks shorter than this character count",
+                    "target": "跳过字符数少于此阈值的块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Split blocks at heading levels up to this depth (1=h1 only, 6=all headings). H4+ headings merge into their parent block at the default of 3.",
+                    "target": "在指定深度的标题级别拆分块（1=仅h1，6=所有标题）。默认情况下，H4 及以上的标题会合并到其父块（深度3）。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Skip re-embedding when content change is smaller than this (chars). Saves API costs on trivial edits.",
+                    "target": "当内容变更小于此字符数时跳过重新嵌入，可节省微小编辑的 API 成本"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Save progress every n batches. Lower = safer on crash, higher = less disk i/o",
+                    "target": "每 n 批次保存一次进度。数值越小在崩溃时越安全，数值越大则磁盘 I/O 更少"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Number of batches sent to the API simultaneously. Lower if hitting rate limits.",
+                    "target": "同时发送到 API 的批次数量。若触发速率限制，请调低该值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Files processed per chunk during vault discovery. Lower = smoother UI, higher = faster.",
+                    "target": "在库扫描期间每个块处理的文件数。数值越低 UI 越流畅，数值越高速度越快"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Results above this similarity score are highlighted with your accent color",
+                    "target": "相似度高于此分数的结果将使用你的强调色高亮显示"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Display folder path in result titles",
+                    "target": "在结果标题中显示文件夹路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Render Markdown formatting in hover previews",
+                    "target": "在悬停预览中渲染 Markdown 格式"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Show expanded connection details",
+                    "target": "显示展开的连接详情"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "API key for authentication",
+                    "target": "用于身份验证的 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "API endpoint URL",
+                    "target": "API 端点 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Embedding model key",
+                    "target": "嵌入模型密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Embedding model",
+                    "target": "嵌入模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Enter a custom model identifier",
+                    "target": "输入自定义模型标识符"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Recommended ollama embedding models",
+                    "target": "推荐的 Ollama 嵌入模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Use quick picks or enter any local ollama embedding model key",
+                    "target": "使用快速选择或输入任意本地 Ollama 嵌入模型密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Provider used for search queries. \"same as indexing\" uses the indexing model.",
+                    "target": "用于搜索查询的提供者。\"same as indexing\" 使用索引模型。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Model used for embedding search queries",
+                    "target": "用于嵌入搜索查询的模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Embedding model provider",
+                    "target": "嵌入模型提供者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Expose the current vault through a local endpoint at http://127.0.0.1:<port>/mcp",
+                    "target": "通过本地端点 http://127.0.0.1:<port>/mcp 暴露当前库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Localhost port for the local endpoint.",
+                    "target": "本地主机端口，用于本地端点。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Muted notices remain hidden until manually unmuted.",
+                    "target": "已静音的通知将保持隐藏，直到手动取消静音。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Muted",
+                    "target": "已静音"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setDesc",
+                    "source": "Control the embedding pipeline.",
+                    "target": "控制嵌入流水线。"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded folders",
+                    "target": "排除的文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum characters",
+                    "target": "最少字符数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "File exclusions",
+                    "target": "文件排除"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Excluded headings",
+                    "target": "排除的标题"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable block-level embedding",
+                    "target": "启用块级嵌入"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Minimum block characters",
+                    "target": "最小块字符数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Block heading depth",
+                    "target": "块标题深度"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Re-embed minimum change",
+                    "target": "重新嵌入最小更改"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Save frequency",
+                    "target": "保存频率"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Embedding concurrency",
+                    "target": "嵌入并发数"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Discovery chunk size",
+                    "target": "发现块大小"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Highlight threshold",
+                    "target": "高亮阈值"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Show full path",
+                    "target": "显示完整路径"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Render Markdown in preview",
+                    "target": "在预览中渲染 Markdown"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Expanded view",
+                    "target": "扩展视图"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "API key",
+                    "target": "API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Host URL",
+                    "target": "主机 URL"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model",
+                    "target": "模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Custom model key",
+                    "target": "自定义模型密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Quick picks",
+                    "target": "快速选择"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Model key",
+                    "target": "模型密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search provider",
+                    "target": "搜索提供商"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Search model",
+                    "target": "搜索模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Provider",
+                    "target": "提供者"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "MCP",
+                    "target": "MCP"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Enable local server",
+                    "target": "启用本地服务器"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Local server port",
+                    "target": "本地服务器端口"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Local server status",
+                    "target": "本地服务器状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Muted notices",
+                    "target": "静音通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Current run",
+                    "target": "当前运行"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Embedding model",
+                    "target": "嵌入模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Sources",
+                    "target": "来源"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Blocks",
+                    "target": "区块"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "View",
+                    "target": "查看"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Notices",
+                    "target": "通知"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Embedding status",
+                    "target": "嵌入状态"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setName",
+                    "source": "Actions",
+                    "target": "操作"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Type to search vault folders…",
+                    "target": "输入以搜索保险库文件夹…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Untitled, templates",
+                    "target": "未命名，模板"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "#draft, #ignore",
+                    "target": "#draft，#ignore"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "Enter API key",
+                    "target": "输入 API 密钥"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "e.g., org/model-name",
+                    "target": "例如：org/model-name"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setPlaceholder",
+                    "source": "E.g., bge-m3",
+                    "target": "例如：bge-m3"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Oc: loading…",
+                    "target": "Oc: 加载中…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Preparing model...",
+                    "target": "正在准备模型…"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "Indexing vault",
+                    "target": "正在索引库"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setText",
+                    "source": "✓ vault indexed",
+                    "target": "✓ 库已索引"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open in new tab",
+                    "target": "在新标签页中打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Open to the right",
+                    "target": "向右打开"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Copy link",
+                    "target": "复制链接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "Hide connection",
+                    "target": "隐藏连接"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "setTitle",
+                    "source": "All folders",
+                    "target": "所有文件夹"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SC] getBlockConnections timed out",
+                    "target": "[SC] getBlockConnections 超时"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[Init] Failed to initialize search model, will use indexing model",
+                    "target": "[Init] 初始化搜索模型失败，将使用索引模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SC] Failed to schedule embedding follow-up run",
+                    "target": "[SC] 调度嵌入后续运行失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to unload previous search embed model during switch",
+                    "target": "切换期间卸载先前的搜索嵌入模型失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to unload previous embed model during switch",
+                    "target": "切换期间卸载先前的嵌入模型失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Collections or pipeline not initialized",
+                    "target": "集合或管道未初始化"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[NodeSQLite] Failed to close database:",
+                    "target": "[NodeSQLite] 关闭数据库失败："
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[MCP] Failed to sync server during core init",
+                    "target": "[MCP] 核心初始化期间同步服务器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SC][Init] Plugin unloading during sync wait, aborting",
+                    "target": "[SC][Init] 同步等待期间插件卸载，正在中止"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SC][Init] Sync wait timed out after 60s, proceeding without sync completion",
+                    "target": "[SC][Init] 同步等待在60秒后超时，继续进行但未完成同步"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[MCP] Failed to stop server during unload",
+                    "target": "[MCP] 卸载期间停止服务器失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to unload search embed model",
+                    "target": "未能卸载搜索嵌入模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "Failed to unload embed model",
+                    "target": "未能卸载嵌入模型"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SC] Flush source save failed",
+                    "target": "[SC] 刷新源保存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[SC] Flush block save failed",
+                    "target": "[SC] 刷新块保存失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[MCP] Request failed",
+                    "target": "[MCP] 请求失败"
+                },
+                {
+                    "type": "CallExpression",
+                    "name": "warn",
+                    "source": "[MCP] HTTP request failed",
+                    "target": "[MCP] HTTP 请求失败"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Refresh",
+                    "target": "刷新"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "aria-label",
+                    "source": "Clear search",
+                    "target": "清除搜索"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "osc-state osc-state--error",
+                    "target": "osc-state osc-state--error"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "cls",
+                    "source": "setting-item-description osc-muted-notices-empty",
+                    "target": "setting-item-description osc-muted-notices-empty"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 384 dim (recommended)",
+                    "target": "本地，512 令牌，384 维度（推荐）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 384 dim",
+                    "target": "本地，512 令牌，384 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 768 dim",
+                    "target": "本地，512 令牌，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 2,048 tokens, 768 dim",
+                    "target": "本地，2,048 令牌，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 4,096 tokens, 384 dim",
+                    "target": "本地，4,096 令牌，384 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 768 dim, Chinese/English bilingual",
+                    "target": "本地，8,192 令牌，768 维度，中文/英文双语"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 512 dim",
+                    "target": "本地，8,192 令牌，512 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 1,024 dim",
+                    "target": "本地，8,192 令牌，1,024 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 512 tokens, 1,024 dim",
+                    "target": "本地，512 令牌，1,024 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 128 tokens, 384 dim",
+                    "target": "本地，128 令牌，384 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Local, 8,192 tokens, 768 dim",
+                    "target": "本地，8,192 令牌，768 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 1,536 dim",
+                    "target": "API，8,191 令牌，1,536 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 3,072 dim",
+                    "target": "API，8,191 令牌，3,072 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 512 dim",
+                    "target": "API，8,191 令牌，512 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 8,191 tokens, 256 dim",
+                    "target": "API，8,191 令牌，256 维度"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 4,000 tokens, 4,096 dim — Korean-optimized, for indexing documents",
+                    "target": "API，4,000 令牌，4,096 维度 — 为文档索引优化的韩语模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "API, 4,000 tokens, 4,096 dim — Korean-optimized, for search queries",
+                    "target": "API，4,000 令牌，4,096 维度 — 为搜索查询优化的韩语模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "OpenRouter embedding model",
+                    "target": "OpenRouter 嵌入模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Run semantic note search against the current vault and return note-level matches.",
+                    "target": "对当前库进行语义笔记搜索并返回笔记级匹配。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Natural-language search query.",
+                    "target": "自然语言搜索查询。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum results to return (1-50).",
+                    "target": "返回的最大结果数 (1-50)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return note-level matches or raw block hits.",
+                    "target": "返回笔记级别的匹配或原始块命中。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Return semantically related notes for a note path already in the vault.",
+                    "target": "返回已在库中的笔记路径的语义相关笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vault-relative markdown file path.",
+                    "target": "相对于库的 Markdown 文件路径。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Maximum related notes to return (1-50).",
+                    "target": "返回的最大相关笔记数 (1-50)。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Read the full markdown contents of a note by its vault-relative path.",
+                    "target": "通过相对于库的路径读取笔记的完整 Markdown 内容。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Read multiple notes by vault-relative path in one call.",
+                    "target": "一次调用中通过相对于库的路径读取多个笔记。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Vault-relative markdown file paths.",
+                    "target": "相对于库的 Markdown 文件路径集合。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "description",
+                    "source": "Report MCP endpoint status, model info, and collection counts.",
+                    "target": "报告 MCP 端点状态、模型信息和集合计数。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "iframe not available",
+                    "target": "iframe 不可用"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "error",
+                    "source": "Dimension mismatch — search results will be incompatible",
+                    "target": "维度不匹配 — 搜索结果将不兼容"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "All",
+                    "target": "全部"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Notes",
+                    "target": "笔记"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "label",
+                    "source": "Blocks",
+                    "target": "区块"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "message",
+                    "source": "Invalid Request",
+                    "target": "请求无效"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "transformers",
+                    "target": "transformers"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "openai",
+                    "target": "openai"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "ollama",
+                    "target": "ollama"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "gemini",
+                    "target": "gemini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "upstage",
+                    "target": "upstage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Connections view",
+                    "target": "连接视图"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Find connections to current note",
+                    "target": "查找当前笔记的连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open smart lookup",
+                    "target": "打开智能查找"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Refresh embeddings",
+                    "target": "刷新嵌入"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Re-embed stale entities",
+                    "target": "重新嵌入过期实体"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Start local server",
+                    "target": "启动本地服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Stop local server",
+                    "target": "停止本地服务器"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Copy connections as smart context",
+                    "target": "将连接复制为智能上下文"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open random connection",
+                    "target": "打开随机连接"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Clear embedding cache",
+                    "target": "清除嵌入缓存"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Transformers (Local)",
+                    "target": "Transformers（本地）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "OpenAI",
+                    "target": "OpenAI"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Ollama (Local)",
+                    "target": "Ollama（本地）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Google Gemini",
+                    "target": "Google Gemini"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "LM Studio (Local)",
+                    "target": "LM Studio（本地）"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Upstage",
+                    "target": "Upstage"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "Open Router",
+                    "target": "Open Router"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "query",
+                    "target": "query"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "connections",
+                    "target": "connections"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "get",
+                    "target": "get"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "name",
+                    "source": "status",
+                    "target": "状态"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "placeholder",
+                    "source": "Search notes semantically...",
+                    "target": "语义搜索笔记..."
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Try writing more content or adjusting minimum character settings.",
+                    "target": "尝试写更多内容或调整最小字符设置。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Open connections is loading…",
+                    "target": "打开连接加载中…"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No embedding available for this note.",
+                    "target": "此笔记暂无嵌入。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Failed to load connections.",
+                    "target": "加载连接失败。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No excluded folders configured.",
+                    "target": "未配置排除文件夹。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "Advanced: search model",
+                    "target": "高级：搜索模型"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "text",
+                    "source": "No muted notices.",
+                    "target": "暂无已静音通知。"
+                },
+                {
+                    "type": "ObjectProperty",
+                    "name": "type",
+                    "source": "text",
+                    "target": "文本"
+                }
+            ],
+            "regex": [
+                {
+                    "source": "log('[SC:GPU] navigator.gpu not available')",
+                    "target": "log('[SC:GPU] navigator.gpu 不可用')"
+                },
+                {
+                    "source": "log('[SC:GPU] is_webgpu_available: true, arch=' + (info.architecture || 'unknown')",
+                    "target": "log('[SC:GPU] is_webgpu_available: true, arch=' + (info.architecture || 'unknown')"
+                },
+                {
+                    "source": "log('[SC:GPU] is_webgpu_available: false (no adapter)')",
+                    "target": "log('[SC:GPU] is_webgpu_available: false (无适配器)')"
+                },
+                {
+                    "source": "log('[SC:GPU] final backend: ' + final_backend);\n\n  if (!pipeline) {\n    const last_message = (last_error && last_error.message) ? String(last_error.message) : String(last_error || '')",
+                    "target": "log('[SC:GPU] 最终后端: ' + final_backend);\n\n  if (!pipeline) {\n    const last_message = (last_error && last_error.message) ? String(last_error.message) : String(last_error || '')"
+                },
+                {
+                    "source": "setTitle(\"Open in new tab\")",
+                    "target": "setTitle(\"在新标签页中打开\")"
+                },
+                {
+                    "source": "setTitle(\"Open to the right\")",
+                    "target": "setTitle(\"在右侧打开\")"
+                },
+                {
+                    "source": "setTitle(\"Copy link\")",
+                    "target": "setTitle(\"复制链接\")"
+                },
+                {
+                    "source": "setTitle(\"Hide connection\")",
+                    "target": "setTitle(\"隐藏连接\")"
+                },
+                {
+                    "source": "setTitle(\"All folders\")",
+                    "target": "setTitle(\"所有文件夹\")"
+                },
+                {
+                    "source": "error(\"[Init] Failed to initialize embed model\", error);\n    const message = errorMessage(error);\n    if (plugin.settings.smart_sources.embed_model.adapter === \"transformers\")",
+                    "target": "error(\"[Init] 初始化嵌入模型失败\", error);\n    const message = errorMessage(error);\n    if (plugin.settings.smart_sources.embed_model.adapter === \"transformers\")"
+                },
+                {
+                    "source": "error(`[SC][Embed] ${batch_error.message}`)",
+                    "target": "error(`[SC][Embed] ${batch_error.message}`)"
+                },
+                {
+                    "source": "setText(`Processing ${paths.length} files...`)",
+                    "target": "setText(`Processing ${paths.length} files...`)"
+                },
+                {
+                    "source": "error(\"Failed to re-enqueue re-import\", error);\n      });\n    }\n  } catch (error) {\n    plugin.logger.error(\"Re-import failed\", error);\n    plugin.setEmbedPhase(\"error\", { error: error instanceof Error ? error.message : String(error) });\n    plugin.notices.show(\"reimport_failed\")",
+                    "target": "error(\"Failed to re-enqueue re-import\", error);\n      });\n    }\n  } catch (error) {\n    plugin.logger.error(\"Re-import failed\", error);\n    plugin.setEmbedPhase(\"error\", { error: error instanceof Error ? error.message : String(error) });\n    plugin.notices.show(\"reimport_failed\")"
+                },
+                {
+                    "source": "error(`[${this.prefix}] error | ${message}${detail}`)",
+                    "target": "error(`[${this.prefix}] error | ${message}${detail}`)"
+                },
+                {
+                    "source": "Notice(`[${this.prefix}] ${message}`)",
+                    "target": "Notice(`[${this.prefix}] ${message}`)"
+                },
+                {
+                    "source": "error(\"Failed to initialize collections:\", error);\n    throw error;\n  }\n}\n\n// src/ui/collection-load.ts\nvar import_obsidian3 = require(\"obsidian\")",
+                    "target": "error(\"Failed to initialize collections:\", error);\n    throw error;\n  }\n}\n\n// src/ui/collection-load.ts\nvar import_obsidian3 = require(\"obsidian\")"
+                },
+                {
+                    "source": "error(\"[SC][Init]   [collections] Failed to load collections:\", error);\n    plugin.notices.show(\"failed_load_collection_data\")",
+                    "target": "error(\"[SC][Init]   [collections] Failed to load collections:\", error);\n    plugin.notices.show(\"failed_load_collection_data\")"
+                },
+                {
+                    "source": "setText(`OC: ${vaultTag}`)",
+                    "target": "setText(`OC: ${vaultTag}`)"
+                },
+                {
+                    "source": "setText(`OC: ${runCurrent}/${runTotal} (${runPercent}%)`)",
+                    "target": "setText(`OC: ${runCurrent}/${runTotal} (${runPercent}%)`)"
+                },
+                {
+                    "source": "setButtonText(\"Try again\")",
+                    "target": "setButtonText(\"Try again\")"
+                },
+                {
+                    "source": "error(\"[SC] Codeblock: failed to load connections:\", error);\n      el.createEl(\"p\", { text: \"Failed to load connections.\", cls: \"osc-state-text\" });\n    }\n  });\n}\n\n// src/ui/settings.ts\nvar import_obsidian33 = require(\"obsidian\")",
+                    "target": "error(\"[SC] 代码块：加载连接失败:\", error);\n      el.createEl(\"p\", { text: \"加载连接失败。\", cls: \"osc-state-text\" });\n    }\n  });\n}\n\n// src/ui/settings.ts\nvar import_obsidian33 = require(\"obsidian\")"
+                },
+                {
+                    "source": "setName(\"Excluded folders\")",
+                    "target": "setName(\"已排除文件夹\")"
+                },
+                {
+                    "source": "setDesc(\"Choose vault folders to exclude. Confirming will remove existing embeddings for that folder.\")",
+                    "target": "setDesc(\"选择要排除的库文件夹。确认后将删除该文件夹的现有嵌入。\")"
+                },
+                {
+                    "source": "setButtonText(\"Add folder\")",
+                    "target": "setButtonText(\"添加文件夹\")"
+                },
+                {
+                    "source": "setName(\"Minimum characters\")",
+                    "target": "setName(\"最小字符数\")"
+                },
+                {
+                    "source": "setDesc(\"Skip files shorter than this character count\")",
+                    "target": "setDesc(\"跳过短于此字符数的文件\")"
+                },
+                {
+                    "source": "setName(\"File exclusions\")",
+                    "target": "setName(\"文件排除\")"
+                },
+                {
+                    "source": "setDesc(\"Comma-separated file name patterns to exclude\")",
+                    "target": "setDesc(\"以逗号分隔的要排除的文件名模式\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Untitled, templates\")",
+                    "target": "setPlaceholder(\"未命名，模板\")"
+                },
+                {
+                    "source": "setName(\"Excluded headings\")",
+                    "target": "setName(\"已排除标题\")"
+                },
+                {
+                    "source": "setDesc(\"Comma-separated heading patterns to skip\")",
+                    "target": "setDesc(\"用逗号分隔的要跳过的标题模式\")"
+                },
+                {
+                    "source": "setPlaceholder(\"#draft, #ignore\")",
+                    "target": "setPlaceholder(\"#draft, #ignore\")"
+                },
+                {
+                    "source": "setName(\"Enable block-level embedding\")",
+                    "target": "setName(\"启用块级嵌入\")"
+                },
+                {
+                    "source": "setDesc(\"Embed individual sections for more granular connections\")",
+                    "target": "setDesc(\"嵌入单独的章节以实现更细粒度的连接\")"
+                },
+                {
+                    "source": "setName(\"Minimum block characters\")",
+                    "target": "setName(\"块的最小字符数\")"
+                },
+                {
+                    "source": "setDesc(\"Skip blocks shorter than this character count\")",
+                    "target": "setDesc(\"跳过字符数少于此值的块\")"
+                },
+                {
+                    "source": "setName(\"Block heading depth\")",
+                    "target": "setName(\"块标题深度\")"
+                },
+                {
+                    "source": "setDesc(\"Split blocks at heading levels up to this depth (1=h1 only, 6=all headings). H4+ headings merge into their parent block at the default of 3.\")",
+                    "target": "setDesc(\"在此深度的标题级别上拆分块（1=仅h1，6=所有标题）。默认情况下，H4 及以上的标题会合并到其父块，深度为 3。\")"
+                },
+                {
+                    "source": "setName(\"Re-embed minimum change\")",
+                    "target": "setName(\"重新嵌入的最小更改\")"
+                },
+                {
+                    "source": "setDesc(\"Skip re-embedding when content change is smaller than this (chars). Saves API costs on trivial edits.\")",
+                    "target": "setDesc(\"当内容更改小于此值（字符）时跳过重新嵌入。可节省对琐碎编辑的 API 成本。\")"
+                },
+                {
+                    "source": "setName(\"Save frequency\")",
+                    "target": "setName(\"保存频率\")"
+                },
+                {
+                    "source": "setDesc(\"Save progress every n batches. Lower = safer on crash, higher = less disk i/o\")",
+                    "target": "setDesc(\"每 n 批次保存进度。数值越低在崩溃时越安全，数值越高则磁盘 I/O 更少\")"
+                },
+                {
+                    "source": "setName(\"Embedding concurrency\")",
+                    "target": "setName(\"嵌入并发\")"
+                },
+                {
+                    "source": "setDesc(\"Number of batches sent to the API simultaneously. Lower if hitting rate limits.\")",
+                    "target": "setDesc(\"同时发送到 API 的批次数量。如遇速率限制，请调低。\")"
+                },
+                {
+                    "source": "setName(\"Discovery chunk size\")",
+                    "target": "setName(\"发现块大小\")"
+                },
+                {
+                    "source": "setDesc(\"Files processed per chunk during vault discovery. Lower = smoother UI, higher = faster.\")",
+                    "target": "setDesc(\"在库发现期间每块处理的文件数。数值越低 UI 越流畅，数值越高速度越快。\")"
+                },
+                {
+                    "source": "setName(\"Highlight threshold\")",
+                    "target": "setName(\"高亮阈值\")"
+                },
+                {
+                    "source": "setDesc(\"Results above this similarity score are highlighted with your accent color\")",
+                    "target": "setDesc(\"相似度分数高于此阈值的结果将使用强调色高亮显示\")"
+                },
+                {
+                    "source": "setName(\"Show full path\")",
+                    "target": "setName(\"显示完整路径\")"
+                },
+                {
+                    "source": "setDesc(\"Display folder path in result titles\")",
+                    "target": "setDesc(\"在结果标题中显示文件夹路径\")"
+                },
+                {
+                    "source": "setName(\"Render Markdown in preview\")",
+                    "target": "setName(\"在预览中渲染 Markdown\")"
+                },
+                {
+                    "source": "setDesc(\"Render Markdown formatting in hover previews\")",
+                    "target": "setDesc(\"在悬停预览中渲染 Markdown 格式\")"
+                },
+                {
+                    "source": "setName(\"Expanded view\")",
+                    "target": "setName(\"展开视图\")"
+                },
+                {
+                    "source": "setDesc(\"Show expanded connection details\")",
+                    "target": "setDesc(\"显示展开的连接详情\")"
+                },
+                {
+                    "source": "Notice(`API key validation failed: ${message}`)",
+                    "target": "Notice(`API 密钥验证失败: ${message}`)"
+                },
+                {
+                    "source": "setName(\"API key\")",
+                    "target": "setName(\"API 密钥\")"
+                },
+                {
+                    "source": "setDesc(\"API key for authentication\")",
+                    "target": "setDesc(\"用于身份验证的 API 密钥\")"
+                },
+                {
+                    "source": "setPlaceholder(\"Enter API key\")",
+                    "target": "setPlaceholder(\"输入 API 密钥\")"
+                },
+                {
+                    "source": "setName(\"Host URL\")",
+                    "target": "setName(\"主机 URL\")"
+                },
+                {
+                    "source": "setDesc(\"API endpoint URL\")",
+                    "target": "setDesc(\"API 端点 URL\")"
+                },
+                {
+                    "source": "setDesc(\"Embedding model key\")",
+                    "target": "setDesc(\"嵌入模型密钥\")"
+                },
+                {
+                    "source": "setDesc(\"Embedding model\")",
+                    "target": "setDesc(\"嵌入模型\")"
+                },
+                {
+                    "source": "setName(\"Custom model key\")",
+                    "target": "setName(\"自定义模型密钥\")"
+                },
+                {
+                    "source": "setDesc(\"Enter a custom model identifier\")",
+                    "target": "setDesc(\"输入自定义模型标识符\")"
+                },
+                {
+                    "source": "setPlaceholder(\"e.g., org/model-name\")",
+                    "target": "setPlaceholder(\"e.g., org/model-name\")"
+                },
+                {
+                    "source": "setName(\"Quick picks\")",
+                    "target": "setName(\"快速选择\")"
+                },
+                {
+                    "source": "setDesc(\"Recommended ollama embedding models\")",
+                    "target": "setDesc(\"推荐的 ollama 嵌入模型\")"
+                },
+                {
+                    "source": "setName(\"Model key\")",
+                    "target": "setName(\"模型密钥\")"
+                },
+                {
+                    "source": "setDesc(\"Use quick picks or enter any local ollama embedding model key\")",
+                    "target": "setDesc(\"使用快速选择或输入任意本地 ollama 嵌入模型密钥\")"
+                },
+                {
+                    "source": "setPlaceholder(\"E.g., bge-m3\")",
+                    "target": "setPlaceholder(\"E.g., bge-m3\")"
+                },
+                {
+                    "source": "setName(\"Search provider\")",
+                    "target": "setName(\"搜索提供者\")"
+                },
+                {
+                    "source": "setDesc('Provider used for search queries. \"same as indexing\" uses the indexing model.')",
+                    "target": "setDesc('用于搜索查询的提供者。 \"same as indexing\" 使用索引模型。')"
+                },
+                {
+                    "source": "setName(\"Search model\")",
+                    "target": "setName(\"搜索模型\")"
+                },
+                {
+                    "source": "setDesc(\"Model used for embedding search queries\")",
+                    "target": "setDesc(\"用于嵌入搜索查询的模型\")"
+                },
+                {
+                    "source": "setDesc(\"Embedding model provider\")",
+                    "target": "setDesc(\"嵌入模型提供者\")"
+                },
+                {
+                    "source": "setName(\"Enable local server\")",
+                    "target": "setName(\"启用本地服务器\")"
+                },
+                {
+                    "source": "setName(\"Local server port\")",
+                    "target": "setName(\"本地服务器端口\")"
+                },
+                {
+                    "source": "setDesc(\"Localhost port for the local endpoint.\")",
+                    "target": "setDesc(\"本地主机端口用于本地端点。\")"
+                },
+                {
+                    "source": "setName(\"Local server status\")",
+                    "target": "setName(\"本地服务器状态\")"
+                },
+                {
+                    "source": "setName(\"Muted notices\")",
+                    "target": "setName(\"已静音通知\")"
+                },
+                {
+                    "source": "setDesc(\"Muted notices remain hidden until manually unmuted.\")",
+                    "target": "setDesc(\"已静音的通知将保持隐藏，直到手动取消静音。\")"
+                },
+                {
+                    "source": "setButtonText(\"Unmute all\")",
+                    "target": "setButtonText(\"取消所有静音\")"
+                },
+                {
+                    "source": "setText(\"Preparing model...\")",
+                    "target": "setText(\"正在准备模型...\")"
+                },
+                {
+                    "source": "setText(\"Indexing vault\")",
+                    "target": "setText(\"正在索引保险库\")"
+                },
+                {
+                    "source": "setText(`~${notesTotal.toLocaleString()} notes`)",
+                    "target": "setText(`~${notesTotal.toLocaleString()} 条笔记`)"
+                },
+                {
+                    "source": "setText(`${notesEmbedded.toLocaleString()} notes`)",
+                    "target": "setText(`${notesEmbedded.toLocaleString()} 条笔记`)"
+                },
+                {
+                    "source": "setText(`${notesTotal.toLocaleString()} notes`)",
+                    "target": "setText(`${notesTotal.toLocaleString()} 条笔记`)"
+                },
+                {
+                    "source": "setName(\"Current run\")",
+                    "target": "setName(\"当前运行\")"
+                },
+                {
+                    "source": "setName(\"Embedding model\")",
+                    "target": "setName(\"嵌入模型\")"
+                },
+                {
+                    "source": "setName(\"Embedding status\")",
+                    "target": "setName(\"嵌入状态\")"
+                },
+                {
+                    "source": "setDesc(\"Control the embedding pipeline.\")",
+                    "target": "setDesc(\"控制嵌入管道。\")"
+                },
+                {
+                    "source": "setButtonText(\"Re-embed stale\")",
+                    "target": "setButtonText(\"重新嵌入过期的\")"
+                },
+                {
+                    "source": "name = \"TransientError\"",
+                    "target": "name = \"TransientError\""
+                },
+                {
+                    "source": "name = \"FatalError\"",
+                    "target": "name = \"FatalError\""
+                },
+                {
+                    "source": "name: `${info.model_name}${info.dims ? `",
+                    "target": "name: `${info.model_name}${info.dims ? `}`"
+                },
+                {
+                    "source": "name: \"Snowflake Arctic Embed XS\"",
+                    "target": "name: \"Snowflake Arctic Embed XS\""
+                },
+                {
+                    "source": "name: \"Snowflake Arctic Embed Small\"",
+                    "target": "name: \"Snowflake Arctic Embed Small\""
+                },
+                {
+                    "source": "name: \"Snowflake Arctic Embed Medium\"",
+                    "target": "name: \"Snowflake Arctic Embed Medium\""
+                },
+                {
+                    "source": "name: \"GTE-tiny\"",
+                    "target": "name: \"GTE-tiny\""
+                },
+                {
+                    "source": "name: \"EmbeddingGemma-300M\"",
+                    "target": "name: \"EmbeddingGemma-300M\""
+                },
+                {
+                    "source": "name: \"Ivysaur\"",
+                    "target": "name: \"Ivysaur\""
+                },
+                {
+                    "source": "name: \"BGE-small-4K\"",
+                    "target": "name: \"BGE-small-4K\""
+                },
+                {
+                    "source": "description: \"Local, 4,096 tokens, 384 dim\"",
+                    "target": "description: \"本地，4,096 令牌，384 维\""
+                },
+                {
+                    "source": "name: \"BGE-M3\"",
+                    "target": "name: \"BGE-M3\""
+                },
+                {
+                    "source": "name: \"Multilingual-E5-Large\"",
+                    "target": "name: \"Multilingual-E5-Large\""
+                },
+                {
+                    "source": "name: \"Multilingual-E5-Small\"",
+                    "target": "name: \"Multilingual-E5-Small\""
+                },
+                {
+                    "source": "name: \"Nomic-embed-text-v1.5\"",
+                    "target": "name: \"Nomic-embed-text-v1.5\""
+                },
+                {
+                    "source": "name: \"BGE-small\"",
+                    "target": "name: \"BGE-small\""
+                },
+                {
+                    "source": "name: \"Nomic-embed-text\"",
+                    "target": "name: \"Nomic-embed-text\""
+                },
+                {
+                    "source": "name: \"transformers\"",
+                    "target": "name: \"transformers\""
+                },
+                {
+                    "source": "name: \"OpenAI Text-3 Small\"",
+                    "target": "name: \"OpenAI 文本-3 小\""
+                },
+                {
+                    "source": "description: \"API, 8,191 tokens, 1,536 dim\"",
+                    "target": "description: \"API，8,191 令牌，1,536 维\""
+                },
+                {
+                    "source": "name: \"OpenAI Text-3 Large\"",
+                    "target": "name: \"OpenAI 文本-3 大\""
+                },
+                {
+                    "source": "name: \"OpenAI Ada\"",
+                    "target": "name: \"OpenAI Ada\""
+                },
+                {
+                    "source": "name: \"openai\"",
+                    "target": "name: \"openai\""
+                },
+                {
+                    "source": "name: \"No models currently available\"",
+                    "target": "name: \"当前没有可用模型\""
+                },
+                {
+                    "source": "name: \"ollama\"",
+                    "target": "name: \"ollama\""
+                },
+                {
+                    "source": "name: \"gemini\"",
+                    "target": "name: \"gemini\""
+                },
+                {
+                    "source": "description: `LM Studio model: ${m.id}`",
+                    "target": "description: `LM Studio 模型: ${m.id}`"
+                },
+                {
+                    "source": "name: \"lm_studio\"",
+                    "target": "name: \"lm_studio\""
+                },
+                {
+                    "source": "name: \"Upstage Solar (passage)\"",
+                    "target": "name: \"Upstage Solar (段落)\""
+                },
+                {
+                    "source": "name: \"Upstage Solar (query)\"",
+                    "target": "name: \"Upstage Solar (查询)\""
+                },
+                {
+                    "source": "name: \"upstage\"",
+                    "target": "name: \"upstage\""
+                },
+                {
+                    "source": "description: \"OpenRouter embedding model\"",
+                    "target": "description: \"OpenRouter 嵌入模型\""
+                },
+                {
+                    "source": "name: \"open_router\"",
+                    "target": "name: \"open_router\""
+                },
+                {
+                    "source": "text: \"Try writing more content or adjusting minimum character settings.\"",
+                    "target": "text: \"尝试编写更多内容或调整最小字符设置。\""
+                },
+                {
+                    "source": "name = \"BatchIntegrityError\"",
+                    "target": "name = \"BatchIntegrityError\""
+                },
+                {
+                    "source": "textContent = `[${this.prefix}]`",
+                    "target": "textContent = `[${this.prefix}]`"
+                },
+                {
+                    "source": "text: \"\"",
+                    "target": "text: \"\""
+                },
+                {
+                    "source": "text: `${Math.round(score * 100)}%`",
+                    "target": "text: `${Math.round(score * 100)}%`"
+                },
+                {
+                    "source": "text: `${modKey}+Shift+L to focus search`",
+                    "target": "${modKey}+Shift+L 以聚焦搜索"
+                },
+                {
+                    "source": "name: \"Connections view\"",
+                    "target": "连接视图"
+                },
+                {
+                    "source": "name: \"Find connections to current note\"",
+                    "target": "查找当前笔记的连接"
+                },
+                {
+                    "source": "name: \"Open smart lookup\"",
+                    "target": "打开智能查找"
+                },
+                {
+                    "source": "name: \"Refresh embeddings\"",
+                    "target": "刷新嵌入"
+                },
+                {
+                    "source": "name: \"Re-embed stale entities\"",
+                    "target": "重新嵌入过期实体"
+                },
+                {
+                    "source": "name: \"Start local server\"",
+                    "target": "启动本地服务器"
+                },
+                {
+                    "source": "name: \"Stop local server\"",
+                    "target": "停止本地服务器"
+                },
+                {
+                    "source": "name: \"Copy connections as smart context\"",
+                    "target": "复制连接为智能上下文"
+                },
+                {
+                    "source": "name: \"Open random connection\"",
+                    "target": "打开随机连接"
+                },
+                {
+                    "source": "name: \"Clear embedding cache\"",
+                    "target": "name: \"清除嵌入缓存\""
+                },
+                {
+                    "source": "text: \"No embedding available for this note.\"",
+                    "target": "text: \"此笔记没有可用的嵌入。\""
+                },
+                {
+                    "source": "text: ` (${Math.round(score * 100)}%)`",
+                    "target": "text: ` (${Math.round(score * 100)}%)`"
+                },
+                {
+                    "source": "text: \"Failed to load connections.\"",
+                    "target": "text: \"加载连接失败。\""
+                },
+                {
+                    "source": "text: \"No excluded folders configured.\"",
+                    "target": "text: \"未配置排除的文件夹。\""
+                },
+                {
+                    "source": "text: `Get ${(_a = registration == null ? void 0 : registration.displayName) != null ? _a : adapterName} API key`",
+                    "target": "text: `获取 ${(_a = registration == null ? void 0 : registration.displayName) != null ? _a : adapterName} API 密钥`"
+                },
+                {
+                    "source": "name: \"bge-m3\"",
+                    "target": "name: \"bge-m3\""
+                },
+                {
+                    "source": "name: \"nomic-embed-text\"",
+                    "target": "name: \"nomic-embed-text\""
+                },
+                {
+                    "source": "name: \"mxbai-embed-large\"",
+                    "target": "name: \"mxbai-embed-large\""
+                },
+                {
+                    "source": "name: `${modelName} (${dims})`",
+                    "target": "name: `${modelName} (${dims})`"
+                },
+                {
+                    "source": "text: \"Advanced: search model\"",
+                    "target": "text: \"高级：搜索模型\""
+                },
+                {
+                    "source": "text: `Indexing: ${indexingDims != null ? `",
+                    "target": "text: `索引：${indexingDims != null ? `"
+                },
+                {
+                    "source": "text: `Search: ${searchDims != null ? `",
+                    "target": "text: `搜索：${searchDims != null ? `"
+                },
+                {
+                    "source": "name: \"Transformers (Local)\"",
+                    "target": "name: \"Transformers（本地）\""
+                },
+                {
+                    "source": "name: \"OpenAI\"",
+                    "target": "name: \"OpenAI\""
+                },
+                {
+                    "source": "name: \"Ollama (Local)\"",
+                    "target": "name: \"Ollama（本地）\""
+                },
+                {
+                    "source": "name: \"Google Gemini\"",
+                    "target": "name: \"Google Gemini\""
+                },
+                {
+                    "source": "name: \"LM Studio (Local)\"",
+                    "target": "name: \"LM Studio（本地）\""
+                },
+                {
+                    "source": "name: \"Upstage\"",
+                    "target": "name: \"Upstage\""
+                },
+                {
+                    "source": "name: \"Open Router\"",
+                    "target": "name: \"Open Router\""
+                },
+                {
+                    "source": "text: \"No muted notices.\"",
+                    "target": "text: \"没有已静音的通知。\""
+                },
+                {
+                    "source": "name = \"\"",
+                    "target": "name = \"\""
+                },
+                {
+                    "source": "text: `${label}: ${value}`",
+                    "target": "text: `${label}: ${value}`"
+                },
+                {
+                    "source": "name: \"query\"",
+                    "target": "name: \"query\""
+                },
+                {
+                    "source": "description: \"Run semantic note search against the current vault and return note-level matches.\"",
+                    "target": "description: \"对当前库运行语义笔记搜索并返回笔记级别的匹配结果。\""
+                },
+                {
+                    "source": "description: \"Natural-language search query.\"",
+                    "target": "description: \"自然语言搜索查询。\""
+                },
+                {
+                    "source": "description: \"Maximum results to return (1-50).\"",
+                    "target": "description: \"返回的最大结果数 (1-50)。\""
+                },
+                {
+                    "source": "description: \"Return note-level matches or raw block hits.\"",
+                    "target": "description: \"返回笔记级别的匹配或原始块命中。\""
+                },
+                {
+                    "source": "name: \"connections\"",
+                    "target": "name: \"connections\""
+                },
+                {
+                    "source": "description: \"Return semantically related notes for a note path already in the vault.\"",
+                    "target": "description: \"返回已在库中的笔记路径的语义相关笔记。\""
+                },
+                {
+                    "source": "description: \"Vault-relative markdown file path.\"",
+                    "target": "description: \"相对于仓库的 markdown 文件路径。\""
+                },
+                {
+                    "source": "description: \"Maximum related notes to return (1-50).\"",
+                    "target": "description: \"返回的相关笔记最大数量（1-50）。\""
+                },
+                {
+                    "source": "name: \"get\"",
+                    "target": "name: \"get\""
+                },
+                {
+                    "source": "description: \"Read the full markdown contents of a note by its vault-relative path.\"",
+                    "target": "description: \"通过其相对于仓库的路径读取笔记的完整 markdown 内容。\""
+                },
+                {
+                    "source": "name: \"multi_get\"",
+                    "target": "name: \"multi_get\""
+                },
+                {
+                    "source": "description: \"Read multiple notes by vault-relative path in one call.\"",
+                    "target": "description: \"一次调用中通过相对于仓库的路径读取多个笔记。\""
+                },
+                {
+                    "source": "description: \"Vault-relative markdown file paths.\"",
+                    "target": "description: \"相对于仓库的 markdown 文件路径。\""
+                },
+                {
+                    "source": "name: \"status\"",
+                    "target": "name: \"status\""
+                },
+                {
+                    "source": "description: \"Report MCP endpoint status, model info, and collection counts.\"",
+                    "target": "description: \"报告 MCP 端点状态、模型信息和集合计数。\""
+                },
+                {
+                    "source": "name : \"\"",
+                    "target": "name : \"\""
+                },
+                {
+                    "source": "name: \"open-connections\"",
+                    "target": "name: \"open-connections\""
+                }
+            ]
+        }
+    }
+}
