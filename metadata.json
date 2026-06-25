@@ -505,5 +505,18 @@
         "created_at": "2026-06-25T05:03:59.739Z",
         "updated_at": "2026-06-25T05:03:59.739Z",
         "type": "plugin"
+    },
+    {
+        "id": "nnbbKIM0RzNdSiuP22ubMnxPSsdHsp46",
+        "plugin": "pixel-pets",
+        "language": "zh-cn",
+        "version": "1.5.2",
+        "supported_versions": "1.5.2",
+        "title": "Pixel Pets",
+        "description": "Pixel Pets Localization & Tweaks",
+        "hash": "71cd081a71cd081a71cd081a71cd081a",
+        "created_at": "2026-06-25T05:04:21.186Z",
+        "updated_at": "2026-06-25T05:04:21.186Z",
+        "type": "plugin"
     }
 ]
