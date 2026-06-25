@@ -492,5 +492,18 @@
         "created_at": "2026-06-25T05:01:19.252Z",
         "updated_at": "2026-06-25T05:01:19.252Z",
         "type": "plugin"
+    },
+    {
+        "id": "psWUmqXNO0kU4Xua790GROWifaJQrRIJ",
+        "plugin": "open-connections",
+        "language": "zh-cn",
+        "version": "3.9.46",
+        "supported_versions": "3.9.46",
+        "title": "Open Connections",
+        "description": "Open Connections Localization & Tweaks",
+        "hash": "3582e0cd3582e0cd3582e0cd3582e0cd",
+        "created_at": "2026-06-25T05:03:59.739Z",
+        "updated_at": "2026-06-25T05:03:59.739Z",
+        "type": "plugin"
     }
 ]
