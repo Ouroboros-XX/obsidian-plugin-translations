@@ -388,5 +388,18 @@
         "created_at": "2026-06-25T04:42:11.580Z",
         "updated_at": "2026-06-25T04:42:11.580Z",
         "type": "theme"
+    },
+    {
+        "id": "Yjj5QfS_SynZbmCaVpXA8XvGYhHknp_V",
+        "plugin": "Border",
+        "language": "zh-cn",
+        "version": "1.13.6",
+        "supported_versions": "1.13.6",
+        "title": "Border",
+        "description": "Border Localization & Tweaks",
+        "hash": "550eb153550eb153550eb153550eb153",
+        "created_at": "2026-06-25T04:42:24.711Z",
+        "updated_at": "2026-06-25T04:42:24.711Z",
+        "type": "theme"
     }
 ]
