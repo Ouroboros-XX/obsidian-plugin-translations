@@ -479,5 +479,18 @@
         "created_at": "2026-06-25T05:01:04.486Z",
         "updated_at": "2026-06-25T05:01:04.486Z",
         "type": "plugin"
+    },
+    {
+        "id": "xnCeH0khjndc3kFg7-YIsmCDECl5xH9z",
+        "plugin": "obsidian-outliner",
+        "language": "zh-cn",
+        "version": "4.10.0",
+        "supported_versions": "4.10.0",
+        "title": "Outliner",
+        "description": "Outliner Localization & Tweaks",
+        "hash": "5776426b5776426b5776426b5776426b",
+        "created_at": "2026-06-25T05:01:19.252Z",
+        "updated_at": "2026-06-25T05:01:19.252Z",
+        "type": "plugin"
     }
 ]
